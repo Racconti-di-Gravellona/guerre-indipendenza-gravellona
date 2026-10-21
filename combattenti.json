@@ -1,0 +1,2323 @@
+[
+  {
+    "id": 78817,
+    "album": 10453,
+    "pagina": 266,
+    "matricola": "13807",
+    "nome": "Albini Giovanni di Giovanni Battista",
+    "cognome": "Albini",
+    "grado": "Soldato",
+    "corpo": "17° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1859"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78816,
+    "album": 10454,
+    "pagina": 266,
+    "matricola": "10507",
+    "nome": "Baj Luigi di Alberto",
+    "cognome": "Baj",
+    "grado": "Soldato",
+    "corpo": "11° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1848"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78815,
+    "album": 10455,
+    "pagina": 266,
+    "matricola": "2030",
+    "nome": "Barato Luigi di Carlo",
+    "cognome": "Barato",
+    "grado": "Soldato",
+    "corpo": "40° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1861"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78814,
+    "album": 10456,
+    "pagina": 266,
+    "matricola": "",
+    "nome": "Barbavara cavalier Andrea del cavalier Giuseppe",
+    "cognome": "Barbavara",
+    "grado": "Luogotenente Colonnello",
+    "corpo": "Cavalleggeri di Lodi",
+    "categoria": "Cavalleria",
+    "campagne": [
+      "1848",
+      "1849",
+      "1859",
+      "1866"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78811,
+    "album": 10459,
+    "pagina": 266,
+    "matricola": "",
+    "nome": "Barbavara di Gravellona cavalier Ottavio di Costantino",
+    "cognome": "Barbavara",
+    "grado": "Luogotenente Colonnello",
+    "corpo": "2° Regg. Bersaglieri",
+    "categoria": "Bersaglieri",
+    "campagne": [
+      "1848",
+      "1849",
+      "1866"
+    ],
+    "osservazioni": "Menzione Onorevole Pastrengo, promosso Maggiore e Cavaliere Ordine Militare di Savoia a Castelfidardo, ferito a Villafranca, Medaglia d'Argento al Valor Militare",
+    "note": ""
+  },
+  {
+    "id": 78813,
+    "album": 10457,
+    "pagina": 266,
+    "matricola": "4078",
+    "nome": "Barbavara Ferdinando Tommaso",
+    "cognome": "Barbavara",
+    "grado": "Soldato",
+    "corpo": "1° Regg. Granatieri",
+    "categoria": "Granatieri",
+    "campagne": [
+      "1859"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78810,
+    "album": 10460,
+    "pagina": 266,
+    "matricola": "",
+    "nome": "Barbavara Gravellona cavalier Ottavio Costantino Antonio Maria del cavalier Ottavio",
+    "cognome": "Barbavara",
+    "grado": "Luogotenente Colonnello",
+    "corpo": "49° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1848",
+      "1849",
+      "1860",
+      "1866"
+    ],
+    "osservazioni": "Croce Cavaliere Ordine Militare di Savoia. Medaglia d'Argento al Valor Militare",
+    "note": ""
+  },
+  {
+    "id": 78812,
+    "album": 10458,
+    "pagina": 266,
+    "matricola": "19240",
+    "nome": "Barbavara Marco di Carlo",
+    "cognome": "Barbavara",
+    "grado": "Soldato",
+    "corpo": "18° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1866"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78808,
+    "album": 10462,
+    "pagina": 266,
+    "matricola": "14841",
+    "nome": "Barbè Angelo di Luigi",
+    "cognome": "Barbè",
+    "grado": "Soldato",
+    "corpo": "18° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1859"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78807,
+    "album": 10463,
+    "pagina": 266,
+    "matricola": "13694",
+    "nome": "Barbè Angelo Maria di Giovanni Battista",
+    "cognome": "Barbè",
+    "grado": "Soldato",
+    "corpo": "8° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1855",
+      "1856"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78806,
+    "album": 10464,
+    "pagina": 266,
+    "matricola": "1152",
+    "nome": "Barbè Angelo Maria di Luigi",
+    "cognome": "Barbè",
+    "grado": "Caporale",
+    "corpo": "61° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1866"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78809,
+    "album": 10461,
+    "pagina": 266,
+    "matricola": "6554",
+    "nome": "Barbè Antonio di Giovanni",
+    "cognome": "Barbè",
+    "grado": "Soldato",
+    "corpo": "12° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1848"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78804,
+    "album": 10466,
+    "pagina": 267,
+    "matricola": "15180",
+    "nome": "Barbè Carlo Antonio di Luigi",
+    "cognome": "Barbè",
+    "grado": "Soldato",
+    "corpo": "18° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1859",
+      "1866"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78805,
+    "album": 10465,
+    "pagina": 266,
+    "matricola": "3652",
+    "nome": "Barbè Carlo di Giovanni",
+    "cognome": "Barbè",
+    "grado": "Sergente Tromba",
+    "corpo": "1° Regg. Bersaglieri",
+    "categoria": "Bersaglieri",
+    "campagne": [
+      "1866",
+      "1870"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78803,
+    "album": 10467,
+    "pagina": 267,
+    "matricola": "9833",
+    "nome": "Barbè Francesco di Giuseppe",
+    "cognome": "Barbè",
+    "grado": "Soldato",
+    "corpo": "11° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1848",
+      "1849"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78802,
+    "album": 10468,
+    "pagina": 267,
+    "matricola": "19203",
+    "nome": "Barbè Francesco Giovanni di Giuseppe",
+    "cognome": "Barbè",
+    "grado": "Soldato",
+    "corpo": "Granatieri",
+    "categoria": "Granatieri",
+    "campagne": [
+      "1848",
+      "1849"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78799,
+    "album": 10471,
+    "pagina": 267,
+    "matricola": "9865",
+    "nome": "Barbè Giovanni di Giovanni Antonio",
+    "cognome": "Barbè",
+    "grado": "Soldato",
+    "corpo": "3° Regg. Bersaglieri",
+    "categoria": "Bersaglieri",
+    "campagne": [
+      "1866"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78800,
+    "album": 10470,
+    "pagina": 267,
+    "matricola": "4779",
+    "nome": "Barbè Girolamo Andrea di Giovanni",
+    "cognome": "Barbè",
+    "grado": "Soldato",
+    "corpo": "5° Regg. Artiglieria",
+    "categoria": "Artiglieria",
+    "campagne": [
+      "1855",
+      "1856",
+      "1859"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78801,
+    "album": 10469,
+    "pagina": 267,
+    "matricola": "3835",
+    "nome": "Barbè Girolamo di Giovanni",
+    "cognome": "Barbè",
+    "grado": "Soldato",
+    "corpo": "Regg. Operai",
+    "categoria": "Altri corpi",
+    "campagne": [
+      "1849",
+      "1859"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78798,
+    "album": 10472,
+    "pagina": 267,
+    "matricola": "7699",
+    "nome": "Barbè Giuseppe di Giovanni Battista",
+    "cognome": "Barbè",
+    "grado": "Soldato",
+    "corpo": "11° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1848"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78797,
+    "album": 10473,
+    "pagina": 267,
+    "matricola": "15574",
+    "nome": "Barbè Melchiore di Giuseppe Antonio",
+    "cognome": "Barbè",
+    "grado": "Soldato",
+    "corpo": "17° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1859"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78796,
+    "album": 10474,
+    "pagina": 267,
+    "matricola": "5241",
+    "nome": "Barbè Paolo Antonio di Michele",
+    "cognome": "Barbè",
+    "grado": "Soldato",
+    "corpo": "11° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1848",
+      "1849"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78795,
+    "album": 10475,
+    "pagina": 267,
+    "matricola": "6172",
+    "nome": "Barbè Pietro di Giovanni",
+    "cognome": "Barbè",
+    "grado": "Soldato",
+    "corpo": "11° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1848",
+      "1849"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78794,
+    "album": 10476,
+    "pagina": 267,
+    "matricola": "6235",
+    "nome": "Barbè Pietro di Giuseppe",
+    "cognome": "Barbè",
+    "grado": "Soldato",
+    "corpo": "2° Regg. Bersaglieri",
+    "categoria": "Bersaglieri",
+    "campagne": [
+      "1866"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78793,
+    "album": 10477,
+    "pagina": 267,
+    "matricola": "3316",
+    "nome": "Barbè Pietro di Paolo",
+    "cognome": "Barbè",
+    "grado": "Trombettiere 1^ Classe",
+    "corpo": "Genova Cavalleria",
+    "categoria": "Cavalleria",
+    "campagne": [
+      "1848",
+      "1849"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78792,
+    "album": 10478,
+    "pagina": 267,
+    "matricola": "1848",
+    "nome": "Barlassina Ambrogio di Stefano",
+    "cognome": "Barlassina",
+    "grado": "Pontiere",
+    "corpo": "1° Regg. Artiglieria",
+    "categoria": "Artiglieria",
+    "campagne": [
+      "1866"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78791,
+    "album": 10479,
+    "pagina": 267,
+    "matricola": "5389",
+    "nome": "Barlassina Pietro di Cristoforo",
+    "cognome": "Barlassina",
+    "grado": "Soldato",
+    "corpo": "5° Regg. Artiglieria",
+    "categoria": "Artiglieria",
+    "campagne": [
+      "1855",
+      "1856",
+      "1859"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78790,
+    "album": 10480,
+    "pagina": 267,
+    "matricola": "14549",
+    "nome": "Barone Giuseppe di Domenico",
+    "cognome": "Barone",
+    "grado": "Soldato",
+    "corpo": "13° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1859"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78789,
+    "album": 10481,
+    "pagina": 267,
+    "matricola": "18386",
+    "nome": "Barrera Giacomo di Carlo",
+    "cognome": "Barrera",
+    "grado": "Soldato",
+    "corpo": "5° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1866"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78788,
+    "album": 10482,
+    "pagina": 267,
+    "matricola": "1828",
+    "nome": "Basla Pietro di Giuseppe Antonio",
+    "cognome": "Basla",
+    "grado": "Caporale",
+    "corpo": "61° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1866",
+      "1870"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78787,
+    "album": 10483,
+    "pagina": 267,
+    "matricola": "9076",
+    "nome": "Basla Pietro Paolo di Giovanni Domenico",
+    "cognome": "Basla",
+    "grado": "Soldato",
+    "corpo": "11° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1848",
+      "1849"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78786,
+    "album": 10484,
+    "pagina": 267,
+    "matricola": "25203",
+    "nome": "Belloni Luigi di Giuseppe",
+    "cognome": "Belloni",
+    "grado": "Soldato",
+    "corpo": "15° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1870"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78785,
+    "album": 10485,
+    "pagina": 267,
+    "matricola": "2009",
+    "nome": "Bertazzi Carlo di Giuseppe",
+    "cognome": "Bertazzi",
+    "grado": "Soldato",
+    "corpo": "36° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1860",
+      "1861"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78784,
+    "album": 10486,
+    "pagina": 268,
+    "matricola": "18377",
+    "nome": "Biandrate Luigi di Paolo Antonio",
+    "cognome": "Biandrate",
+    "grado": "Soldato",
+    "corpo": "9° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1861"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78783,
+    "album": 10487,
+    "pagina": 268,
+    "matricola": "15026",
+    "nome": "Biandrate Pietro di Giovanni",
+    "cognome": "Biandrate",
+    "grado": "Soldato",
+    "corpo": "18° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1855",
+      "1859"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78782,
+    "album": 10488,
+    "pagina": 268,
+    "matricola": "12008",
+    "nome": "Boldetti Andrea di Giuseppe",
+    "cognome": "Boldetti",
+    "grado": "Caporale Tromba",
+    "corpo": "2° Regg. Bersaglieri",
+    "categoria": "Bersaglieri",
+    "campagne": [
+      "1866"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78781,
+    "album": 10489,
+    "pagina": 268,
+    "matricola": "6171",
+    "nome": "Boldetti Giovanni Antonio di Giovanni Battista",
+    "cognome": "Boldetti",
+    "grado": "Soldato",
+    "corpo": "11° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1848",
+      "1849"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78780,
+    "album": 10490,
+    "pagina": 268,
+    "matricola": "3094",
+    "nome": "Canella Carlo di Pietro",
+    "cognome": "Canella",
+    "grado": "Appuntato",
+    "corpo": "Aosta Cavalleria",
+    "categoria": "Cavalleria",
+    "campagne": [
+      "1866",
+      "1870"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78779,
+    "album": 10491,
+    "pagina": 268,
+    "matricola": "11216",
+    "nome": "Carenzio Angelo Maria di Luigi",
+    "cognome": "Carenzio",
+    "grado": "Soldato",
+    "corpo": "12° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1849"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78778,
+    "album": 10492,
+    "pagina": 268,
+    "matricola": "10819",
+    "nome": "Carnovale Michele di Giuseppe",
+    "cognome": "Carnovale",
+    "grado": "Soldato",
+    "corpo": "48° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1866"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78777,
+    "album": 10493,
+    "pagina": 268,
+    "matricola": "13696",
+    "nome": "Casaro Ambrogio di Carlo",
+    "cognome": "Casaro",
+    "grado": "Scelto",
+    "corpo": "8° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1859"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78776,
+    "album": 10494,
+    "pagina": 268,
+    "matricola": "3834",
+    "nome": "Cassetta Carlo di Francesco",
+    "cognome": "Cassetta",
+    "grado": "Soldato",
+    "corpo": "61° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1866",
+      "1870"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78775,
+    "album": 10495,
+    "pagina": 268,
+    "matricola": "8918",
+    "nome": "Colli Carlo di Giovanni Antonio",
+    "cognome": "Colli",
+    "grado": "Soldato",
+    "corpo": "15° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1849"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78773,
+    "album": 10497,
+    "pagina": 268,
+    "matricola": "11456",
+    "nome": "Colli Giovanni Battista di Giuseppe",
+    "cognome": "Colli",
+    "grado": "Soldato",
+    "corpo": "11° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1849",
+      "1859"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78774,
+    "album": 10496,
+    "pagina": 268,
+    "matricola": "7031",
+    "nome": "Colli Giovanni di Giuseppe",
+    "cognome": "Colli",
+    "grado": "Soldato",
+    "corpo": "12° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1848",
+      "1849"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78772,
+    "album": 10498,
+    "pagina": 268,
+    "matricola": "9506",
+    "nome": "Colli Giuseppe di Giovanni",
+    "cognome": "Colli",
+    "grado": "Soldato",
+    "corpo": "1° Regg. Bersaglieri",
+    "categoria": "Bersaglieri",
+    "campagne": [
+      "1859",
+      "1860",
+      "1861",
+      "1866"
+    ],
+    "osservazioni": "Morto a Custoza",
+    "note": ""
+  },
+  {
+    "id": 78771,
+    "album": 10499,
+    "pagina": 268,
+    "matricola": "858",
+    "nome": "Colli Valentino di Giuseppe",
+    "cognome": "Colli",
+    "grado": "Soldato",
+    "corpo": "53° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1866"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78770,
+    "album": 10500,
+    "pagina": 268,
+    "matricola": "18376",
+    "nome": "Collini Paolo di Luigi",
+    "cognome": "Collini",
+    "grado": "Soldato",
+    "corpo": "9° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1861"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78769,
+    "album": 10501,
+    "pagina": 268,
+    "matricola": "18854",
+    "nome": "Collivignarelli Carlo di Giovanni Battista",
+    "cognome": "Collivignarelli",
+    "grado": "Soldato",
+    "corpo": "12° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1866"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78768,
+    "album": 10502,
+    "pagina": 268,
+    "matricola": "4095",
+    "nome": "Colombano Carlo Odoardo di Francesco",
+    "cognome": "Colombano",
+    "grado": "Trombettiere",
+    "corpo": "Artiglieria da Piazza",
+    "categoria": "Artiglieria",
+    "campagne": [
+      "1859"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78767,
+    "album": 10503,
+    "pagina": 268,
+    "matricola": "6794",
+    "nome": "Corio Giovanni Battista di Pietro",
+    "cognome": "Corio",
+    "grado": "Soldato",
+    "corpo": "11° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1848"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78766,
+    "album": 10504,
+    "pagina": 268,
+    "matricola": "1021",
+    "nome": "Cova Giuseppe di Pietro",
+    "cognome": "Cova",
+    "grado": "Soldato",
+    "corpo": "26° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1859",
+      "1860",
+      "1861"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78765,
+    "album": 10505,
+    "pagina": 268,
+    "matricola": "1701",
+    "nome": "Curti Carlo Maria di Giovanni",
+    "cognome": "Curti",
+    "grado": "Caporale",
+    "corpo": "24° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1860",
+      "1861"
+    ],
+    "osservazioni": "Medaglia d'Argento al Valor Militare",
+    "note": ""
+  },
+  {
+    "id": 78764,
+    "album": 10506,
+    "pagina": 269,
+    "matricola": "11724",
+    "nome": "Curti Giuseppe di Pietro",
+    "cognome": "Curti",
+    "grado": "Soldato",
+    "corpo": "11° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1849",
+      "1859"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78763,
+    "album": 10507,
+    "pagina": 269,
+    "matricola": "2001",
+    "nome": "Curti Luigi di Giovanni",
+    "cognome": "Curti",
+    "grado": "Appuntato",
+    "corpo": "Aosta Cavalleria",
+    "categoria": "Cavalleria",
+    "campagne": [
+      "1848",
+      "1849"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78762,
+    "album": 10508,
+    "pagina": 269,
+    "matricola": "3814",
+    "nome": "Curti Pietro di Francesco",
+    "cognome": "Curti",
+    "grado": "Soldato",
+    "corpo": "61° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1866",
+      "1870"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78761,
+    "album": 10509,
+    "pagina": 269,
+    "matricola": "6351",
+    "nome": "Curti Pietro di Giovanni Antonio",
+    "cognome": "Curti",
+    "grado": "Soldato",
+    "corpo": "4° Regg. Artiglieria",
+    "categoria": "Artiglieria",
+    "campagne": [
+      "1866"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78760,
+    "album": 10510,
+    "pagina": 269,
+    "matricola": "2546",
+    "nome": "Debernardi Giovanni di Giuseppe Antonio",
+    "cognome": "Debernardi",
+    "grado": "Soldato",
+    "corpo": "12° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1848",
+      "1849"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78759,
+    "album": 10511,
+    "pagina": 269,
+    "matricola": "422",
+    "nome": "Delfrate Giovanni Andrea di Pacifico",
+    "cognome": "Delfrate",
+    "grado": "Sergente",
+    "corpo": "19° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1866"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78758,
+    "album": 10512,
+    "pagina": 269,
+    "matricola": "9500",
+    "nome": "Delfrate Luigi di Carlo",
+    "cognome": "Delfrate",
+    "grado": "Soldato",
+    "corpo": "1° Regg. Bersaglieri",
+    "categoria": "Bersaglieri",
+    "campagne": [
+      "1866"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78757,
+    "album": 10513,
+    "pagina": 269,
+    "matricola": "",
+    "nome": "Della Beffa Francesco Alessandro di Carlo",
+    "cognome": "Della",
+    "grado": "Luogotenente",
+    "corpo": "3° Regg. Bersaglieri",
+    "categoria": "Bersaglieri",
+    "campagne": [
+      "1866"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78756,
+    "album": 10514,
+    "pagina": 269,
+    "matricola": "1693",
+    "nome": "Deluca Pietro di Giovanni",
+    "cognome": "Deluca",
+    "grado": "Sottocaporale",
+    "corpo": "Bersaglieri",
+    "categoria": "Bersaglieri",
+    "campagne": [
+      "1848"
+    ],
+    "osservazioni": "Disperso",
+    "note": ""
+  },
+  {
+    "id": 78755,
+    "album": 10515,
+    "pagina": 269,
+    "matricola": "6489",
+    "nome": "Diotti Pietro di Pasquale",
+    "cognome": "Diotti",
+    "grado": "Soldato",
+    "corpo": "12° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1848",
+      "1849"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78754,
+    "album": 10516,
+    "pagina": 269,
+    "matricola": "654",
+    "nome": "Dondi Francesco Antonio di Antonio Maria",
+    "cognome": "Dondi",
+    "grado": "Soldato",
+    "corpo": "3° Regg. Granatieri",
+    "categoria": "Granatieri",
+    "campagne": [
+      "1859",
+      "1860",
+      "1866"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78753,
+    "album": 10517,
+    "pagina": 269,
+    "matricola": "1718",
+    "nome": "Dondi Giovanni di Giovanni",
+    "cognome": "Dondi",
+    "grado": "Soldato",
+    "corpo": "50° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1866"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78752,
+    "album": 10518,
+    "pagina": 269,
+    "matricola": "9792",
+    "nome": "Facchinotti Giuseppe di Giovanni Battista",
+    "cognome": "Facchinotti",
+    "grado": "Soldato",
+    "corpo": "12° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1848",
+      "1849"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78751,
+    "album": 10519,
+    "pagina": 269,
+    "matricola": "5865",
+    "nome": "Falzone Giovanni Giacomo di Francesco",
+    "cognome": "Falzone",
+    "grado": "Sergente",
+    "corpo": "Genio Zappatori",
+    "categoria": "Altri corpi",
+    "campagne": [
+      "1859",
+      "1860",
+      "1861"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78750,
+    "album": 10520,
+    "pagina": 269,
+    "matricola": "13427",
+    "nome": "Fassina Pietro di Giovanni",
+    "cognome": "Fassina",
+    "grado": "Soldato",
+    "corpo": "18° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1855"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78749,
+    "album": 10521,
+    "pagina": 269,
+    "matricola": "4025",
+    "nome": "Fatica Alessandro di Ambrogio",
+    "cognome": "Fatica",
+    "grado": "Soldato",
+    "corpo": "Piemonte Reale Cavalleria",
+    "categoria": "Cavalleria",
+    "campagne": [
+      "1848",
+      "1849"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78748,
+    "album": 10522,
+    "pagina": 269,
+    "matricola": "8419",
+    "nome": "Galetti Ambrogio di Giovanni",
+    "cognome": "Galetti",
+    "grado": "Soldato",
+    "corpo": "12° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1848"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78747,
+    "album": 10523,
+    "pagina": 269,
+    "matricola": "18600",
+    "nome": "Galetti Carlo Antonio di Antonio",
+    "cognome": "Galetti",
+    "grado": "Soldato",
+    "corpo": "Bersaglieri",
+    "categoria": "Bersaglieri",
+    "campagne": [
+      "1860",
+      "1861"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78746,
+    "album": 10524,
+    "pagina": 269,
+    "matricola": "3864",
+    "nome": "Galetti Giovanni di Pietro",
+    "cognome": "Galetti",
+    "grado": "Soldato",
+    "corpo": "61° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1866"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78745,
+    "album": 10525,
+    "pagina": 269,
+    "matricola": "17910",
+    "nome": "Galetti Luigi di Antonio Maria",
+    "cognome": "Galetti",
+    "grado": "Soldato",
+    "corpo": "12° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1848",
+      "1849"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78744,
+    "album": 10526,
+    "pagina": 270,
+    "matricola": "5096",
+    "nome": "Garavaglia Antonio Egidio di Pasquale",
+    "cognome": "Garavaglia",
+    "grado": "Soldato",
+    "corpo": "Savoia Cavalleria",
+    "categoria": "Cavalleria",
+    "campagne": [
+      "1849"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78743,
+    "album": 10527,
+    "pagina": 270,
+    "matricola": "5836",
+    "nome": "Garavaglia Edoardo di Edoardo",
+    "cognome": "Garavaglia",
+    "grado": "Maresciallo d'Alloggio",
+    "corpo": "Nizza Cavalleria",
+    "categoria": "Cavalleria",
+    "campagne": [
+      "1848",
+      "1849"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78742,
+    "album": 10528,
+    "pagina": 270,
+    "matricola": "13434",
+    "nome": "Garini Pietro di Davide",
+    "cognome": "Garini",
+    "grado": "Soldato",
+    "corpo": "15° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1855"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78741,
+    "album": 10529,
+    "pagina": 270,
+    "matricola": "14080",
+    "nome": "Garra Pacifico di Gaudenzio",
+    "cognome": "Garra",
+    "grado": "Soldato",
+    "corpo": "7° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1859"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78740,
+    "album": 10530,
+    "pagina": 270,
+    "matricola": "6005",
+    "nome": "Gilardone Giovanni di Pietro",
+    "cognome": "Gilardone",
+    "grado": "Soldato",
+    "corpo": "12° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1849"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78738,
+    "album": 10532,
+    "pagina": 270,
+    "matricola": "2229",
+    "nome": "Gilardone Giuseppe Antonio di Pietro",
+    "cognome": "Gilardone",
+    "grado": "Caporale",
+    "corpo": "Cavalleggeri di Saluzzo",
+    "categoria": "Cavalleria",
+    "campagne": [
+      "1859"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78739,
+    "album": 10531,
+    "pagina": 270,
+    "matricola": "2047",
+    "nome": "Gilardone Giuseppe di Bernardo",
+    "cognome": "Gilardone",
+    "grado": "Soldato",
+    "corpo": "1° Regg. Granatieri",
+    "categoria": "Granatieri",
+    "campagne": [
+      "1855",
+      "1859"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78737,
+    "album": 10533,
+    "pagina": 270,
+    "matricola": "8728",
+    "nome": "Grugnetti Carlo di Giuseppe",
+    "cognome": "Grugnetti",
+    "grado": "Soldato",
+    "corpo": "34° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1866"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78736,
+    "album": 10534,
+    "pagina": 270,
+    "matricola": "1961",
+    "nome": "Grunetti Gaudenzio di Carlo",
+    "cognome": "Grunetti",
+    "grado": "Soldato",
+    "corpo": "5° Regg. Fanteria Volontari Italiani",
+    "categoria": "Volontari",
+    "campagne": [
+      "1866"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78735,
+    "album": 10535,
+    "pagina": 270,
+    "matricola": "11839",
+    "nome": "Guvernizio Giuseppe Antonio di Carlo Antonio",
+    "cognome": "Guvernizio",
+    "grado": "Soldato",
+    "corpo": "11° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1849",
+      "1859"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78734,
+    "album": 10536,
+    "pagina": 270,
+    "matricola": "3302",
+    "nome": "Landini Edoardo di Giuseppe",
+    "cognome": "Landini",
+    "grado": "Soldato",
+    "corpo": "1° Regg. Granatieri",
+    "categoria": "Granatieri",
+    "campagne": [
+      "1859",
+      "1860"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78733,
+    "album": 10537,
+    "pagina": 270,
+    "matricola": "9485",
+    "nome": "Libertà Luigi di Pietro",
+    "cognome": "Libertà",
+    "grado": "Soldato",
+    "corpo": "27° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1870"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78732,
+    "album": 10538,
+    "pagina": 270,
+    "matricola": "18372",
+    "nome": "Magaro Carlo di Giovanni",
+    "cognome": "Magaro",
+    "grado": "Soldato",
+    "corpo": "9° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1861"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78731,
+    "album": 10539,
+    "pagina": 270,
+    "matricola": "9538",
+    "nome": "Majnino Giovanni di Francesco",
+    "cognome": "Majnino",
+    "grado": "Soldato",
+    "corpo": "12° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1848",
+      "1849"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78730,
+    "album": 10540,
+    "pagina": 270,
+    "matricola": "18374",
+    "nome": "Malvestito Carlo di Angelo",
+    "cognome": "Malvestito",
+    "grado": "Soldato",
+    "corpo": "9° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1861"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78729,
+    "album": 10541,
+    "pagina": 270,
+    "matricola": "18373",
+    "nome": "Mantegazza Domenico di Giovanni Antonio",
+    "cognome": "Mantegazza",
+    "grado": "Soldato",
+    "corpo": "9° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1861"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78728,
+    "album": 10542,
+    "pagina": 270,
+    "matricola": "125",
+    "nome": "Martini Giovanni di Cesare",
+    "cognome": "Martini",
+    "grado": "Sergente",
+    "corpo": "22° Regg. Fanteria Lombardo",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1849"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78727,
+    "album": 10543,
+    "pagina": 270,
+    "matricola": "7698",
+    "nome": "Mazzino Pietro Antonio di Giovanni Antonio",
+    "cognome": "Mazzino",
+    "grado": "Soldato",
+    "corpo": "11° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1848"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78726,
+    "album": 10544,
+    "pagina": 270,
+    "matricola": "12611",
+    "nome": "Montanara Giuseppe di Giovanni Battista",
+    "cognome": "Montanara",
+    "grado": "Soldato",
+    "corpo": "12° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1859"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78725,
+    "album": 10545,
+    "pagina": 270,
+    "matricola": "8469",
+    "nome": "Morlacchi Marco di Giovanni",
+    "cognome": "Morlacchi",
+    "grado": "Soldato",
+    "corpo": "Genova Cavalleria",
+    "categoria": "Cavalleria",
+    "campagne": [
+      "1866"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78724,
+    "album": 10546,
+    "pagina": 271,
+    "matricola": "6002",
+    "nome": "Oldano Carlo Antonio di Pietro",
+    "cognome": "Oldano",
+    "grado": "Soldato",
+    "corpo": "12° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1849"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78723,
+    "album": 10547,
+    "pagina": 271,
+    "matricola": "10202",
+    "nome": "Oldano Giuseppe di Ambroggio",
+    "cognome": "Oldano",
+    "grado": "Soldato",
+    "corpo": "11° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1848",
+      "1849"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78722,
+    "album": 10548,
+    "pagina": 271,
+    "matricola": "4550",
+    "nome": "Omodeo Zorini Baldassare di Giuseppe",
+    "cognome": "Omodeo",
+    "grado": "Soldato",
+    "corpo": "6° Regg. Artiglieria",
+    "categoria": "Artiglieria",
+    "campagne": [
+      "1866"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78721,
+    "album": 10549,
+    "pagina": 271,
+    "matricola": "15123",
+    "nome": "Pavese Ambrogio di Giuseppe",
+    "cognome": "Pavese",
+    "grado": "Trombettiere",
+    "corpo": "7° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1859",
+      "1866"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78720,
+    "album": 10550,
+    "pagina": 271,
+    "matricola": "6799",
+    "nome": "Pavese Giovanni Battista di Antonio Maria",
+    "cognome": "Pavese",
+    "grado": "Soldato",
+    "corpo": "11° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1848",
+      "1849"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78719,
+    "album": 10551,
+    "pagina": 271,
+    "matricola": "9551",
+    "nome": "Pavese Giuseppe di Giovanni",
+    "cognome": "Pavese",
+    "grado": "Soldato",
+    "corpo": "12° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1848",
+      "1849"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78718,
+    "album": 10552,
+    "pagina": 271,
+    "matricola": "20860",
+    "nome": "Pavese Luigi di Giovanni",
+    "cognome": "Pavese",
+    "grado": "Soldato",
+    "corpo": "7° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1866"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78717,
+    "album": 10553,
+    "pagina": 271,
+    "matricola": "10211",
+    "nome": "Pavesi Bernardo di Giovanni",
+    "cognome": "Pavesi",
+    "grado": "Soldato",
+    "corpo": "3° Regg. Bersaglieri",
+    "categoria": "Bersaglieri",
+    "campagne": [
+      "1866"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78716,
+    "album": 10554,
+    "pagina": 271,
+    "matricola": "2726",
+    "nome": "Pavesi Carlo di Pietro",
+    "cognome": "Pavesi",
+    "grado": "Soldato",
+    "corpo": "53° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1866"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78715,
+    "album": 10555,
+    "pagina": 271,
+    "matricola": "4537",
+    "nome": "Pavesi Giovanni di Luigi",
+    "cognome": "Pavesi",
+    "grado": "Soldato",
+    "corpo": "4° Regg. Bersaglieri",
+    "categoria": "Bersaglieri",
+    "campagne": [
+      "1866"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78714,
+    "album": 10556,
+    "pagina": 271,
+    "matricola": "9242",
+    "nome": "Pavesi Giuseppe di Giovanni",
+    "cognome": "Pavesi",
+    "grado": "Soldato",
+    "corpo": "11° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1848",
+      "1849"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78713,
+    "album": 10557,
+    "pagina": 271,
+    "matricola": "12015",
+    "nome": "Pedali Giuseppe di Pietro",
+    "cognome": "Pedali",
+    "grado": "Soldato",
+    "corpo": "2° Regg. Granatieri",
+    "categoria": "Granatieri",
+    "campagne": [
+      "1866"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78712,
+    "album": 10558,
+    "pagina": 271,
+    "matricola": "4826",
+    "nome": "Piccolini Carlo Federico di Giovanni Maria",
+    "cognome": "Piccolini",
+    "grado": "Soldato",
+    "corpo": "Piemonte Reale Cavalleria",
+    "categoria": "Cavalleria",
+    "campagne": [
+      "1849"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78711,
+    "album": 10559,
+    "pagina": 271,
+    "matricola": "8740",
+    "nome": "Piccolini Carlo Francesco di Giovanni",
+    "cognome": "Piccolini",
+    "grado": "Soldato",
+    "corpo": "5° Regg. Artiglieria",
+    "categoria": "Artiglieria",
+    "campagne": [
+      "1859"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78710,
+    "album": 10560,
+    "pagina": 271,
+    "matricola": "3819",
+    "nome": "Piccolini Pietro di Domenico",
+    "cognome": "Piccolini",
+    "grado": "Caporale",
+    "corpo": "61° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1866"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78709,
+    "album": 10561,
+    "pagina": 271,
+    "matricola": "7982",
+    "nome": "Picolini Casarotti Cristoforo di Giuseppe",
+    "cognome": "Picolini",
+    "grado": "Soldato",
+    "corpo": "11° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1848",
+      "1849"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78708,
+    "album": 10562,
+    "pagina": 271,
+    "matricola": "5305",
+    "nome": "Pistoja Pietro di Giuseppe",
+    "cognome": "Pistoja",
+    "grado": "Caporale",
+    "corpo": "41° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1870"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78707,
+    "album": 10563,
+    "pagina": 271,
+    "matricola": "7908",
+    "nome": "Portalupi Carlo di Paolo",
+    "cognome": "Portalupi",
+    "grado": "Soldato",
+    "corpo": "12° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1848",
+      "1849"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78706,
+    "album": 10564,
+    "pagina": 271,
+    "matricola": "19559",
+    "nome": "Pozzi Pietro Ottavio di Secondo",
+    "cognome": "Pozzi",
+    "grado": "Soldato",
+    "corpo": "Granatieri",
+    "categoria": "Granatieri",
+    "campagne": [
+      "1849"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78705,
+    "album": 10565,
+    "pagina": 271,
+    "matricola": "8755",
+    "nome": "Quartara Pietro di Carlo",
+    "cognome": "Quartara",
+    "grado": "Appuntato",
+    "corpo": "Savoia Cavalleria",
+    "categoria": "Cavalleria",
+    "campagne": [
+      "1866"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78704,
+    "album": 10566,
+    "pagina": 272,
+    "matricola": "1938",
+    "nome": "Rampi Pietro di Giuseppe",
+    "cognome": "Rampi",
+    "grado": "Furiere",
+    "corpo": "35° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1866",
+      "1870"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78703,
+    "album": 10567,
+    "pagina": 272,
+    "matricola": "2727",
+    "nome": "Re Antonio di Bartolomeo",
+    "cognome": "Re",
+    "grado": "Soldato",
+    "corpo": "53° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1860"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78702,
+    "album": 10568,
+    "pagina": 272,
+    "matricola": "2445",
+    "nome": "Re Eustacchio Secondo di Paolo",
+    "cognome": "Re",
+    "grado": "Soldato",
+    "corpo": "55° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1866"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78700,
+    "album": 10570,
+    "pagina": 272,
+    "matricola": "4315",
+    "nome": "Re Giovanni Battista Lorenzo di Andrea",
+    "cognome": "Re",
+    "grado": "Appuntato",
+    "corpo": "Aosta Cavalleria",
+    "categoria": "Cavalleria",
+    "campagne": [
+      "1859"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78701,
+    "album": 10569,
+    "pagina": 272,
+    "matricola": "2728",
+    "nome": "Re Giovanni di Pietro",
+    "cognome": "Re",
+    "grado": "Soldato",
+    "corpo": "53° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1866"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78697,
+    "album": 10573,
+    "pagina": 272,
+    "matricola": "6552",
+    "nome": "Rigone Giovanni Antonino di Giuseppe",
+    "cognome": "Rigone",
+    "grado": "Soldato",
+    "corpo": "12° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1848"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78699,
+    "album": 10571,
+    "pagina": 272,
+    "matricola": "13970",
+    "nome": "Rigone Giovanni di Francesco",
+    "cognome": "Rigone",
+    "grado": "Caporale",
+    "corpo": "Artiglieria da Piazza",
+    "categoria": "Artiglieria",
+    "campagne": [
+      "1861",
+      "1866"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78698,
+    "album": 10572,
+    "pagina": 272,
+    "matricola": "7984",
+    "nome": "Rigone Giovanni di Paolo",
+    "cognome": "Rigone",
+    "grado": "Sottocaporale",
+    "corpo": "11° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1848",
+      "1849"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78696,
+    "album": 10574,
+    "pagina": 272,
+    "matricola": "4170",
+    "nome": "Rigone Luigi di Ferdinando",
+    "cognome": "Rigone",
+    "grado": "Appuntato",
+    "corpo": "Savoia Cavalleria",
+    "categoria": "Cavalleria",
+    "campagne": [
+      "1848",
+      "1849"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78695,
+    "album": 10575,
+    "pagina": 272,
+    "matricola": "",
+    "nome": "Rigone Pietro Carlo Domenico di Francesco",
+    "cognome": "Rigone",
+    "grado": "Tenente",
+    "corpo": "12° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1848",
+      "1849",
+      "1855",
+      "1856"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78694,
+    "album": 10576,
+    "pagina": 272,
+    "matricola": "21596",
+    "nome": "Riscaldini Michele di Vittorio",
+    "cognome": "Riscaldini",
+    "grado": "Soldato",
+    "corpo": "Cacciatori Franchi",
+    "categoria": "Altri corpi",
+    "campagne": [
+      "1866"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78693,
+    "album": 10577,
+    "pagina": 272,
+    "matricola": "9537",
+    "nome": "Rizzoli Angelo Epifanio di Carlo",
+    "cognome": "Rizzoli",
+    "grado": "Soldato",
+    "corpo": "12° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1848"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78692,
+    "album": 10578,
+    "pagina": 272,
+    "matricola": "11398",
+    "nome": "Rossi Carlo di Giovanni Battista",
+    "cognome": "Rossi",
+    "grado": "Soldato",
+    "corpo": "11° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1849",
+      "1859"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78688,
+    "album": 10582,
+    "pagina": 272,
+    "matricola": "",
+    "nome": "Rossi cavalier Pietro Francesco di Lodovico",
+    "cognome": "Rossi",
+    "grado": "Capitano",
+    "corpo": "34° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1848",
+      "1849",
+      "1859",
+      "1860",
+      "1861",
+      "1866"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78691,
+    "album": 10579,
+    "pagina": 272,
+    "matricola": "6797",
+    "nome": "Rossi Francesco di Giovanni Battista",
+    "cognome": "Rossi",
+    "grado": "Soldato",
+    "corpo": "11° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1848",
+      "1849"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78690,
+    "album": 10580,
+    "pagina": 272,
+    "matricola": "9854",
+    "nome": "Rossi Giovanni Antonio di Andrea",
+    "cognome": "Rossi",
+    "grado": "Sergente",
+    "corpo": "11° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1848",
+      "1849"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78689,
+    "album": 10581,
+    "pagina": 272,
+    "matricola": "12012",
+    "nome": "Rossi Giuseppe di Gaudenzio",
+    "cognome": "Rossi",
+    "grado": "Soldato",
+    "corpo": "11° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1859"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78687,
+    "album": 10583,
+    "pagina": 272,
+    "matricola": "2149",
+    "nome": "Rubini Stefano di Giovanni",
+    "cognome": "Rubini",
+    "grado": "Soldato",
+    "corpo": "2° Regg. Treno d'Armata",
+    "categoria": "Altri corpi",
+    "campagne": [
+      "1866"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78686,
+    "album": 10584,
+    "pagina": 272,
+    "matricola": "11723",
+    "nome": "Sala Francesco di Luigi",
+    "cognome": "Sala",
+    "grado": "Soldato",
+    "corpo": "11° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1849"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78685,
+    "album": 10585,
+    "pagina": 272,
+    "matricola": "7696",
+    "nome": "Salmoringo Giovanni di Giovanni Andrea",
+    "cognome": "Salmoringo",
+    "grado": "Soldato",
+    "corpo": "11° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1848"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78684,
+    "album": 10586,
+    "pagina": 273,
+    "matricola": "5233",
+    "nome": "Sempio Giuseppe di Francesco",
+    "cognome": "Sempio",
+    "grado": "Caporale",
+    "corpo": "Novara Cavalleria",
+    "categoria": "Cavalleria",
+    "campagne": [
+      "1859",
+      "1860",
+      "1861"
+    ],
+    "osservazioni": "Medaglia d'Argento al Valor Militare a Macerone",
+    "note": ""
+  },
+  {
+    "id": 78683,
+    "album": 10587,
+    "pagina": 273,
+    "matricola": "1690",
+    "nome": "Silva Giuseppe di Giovanni",
+    "cognome": "Silva",
+    "grado": "Caporale",
+    "corpo": "4° Regg. Fanteria Volontari Italiani",
+    "categoria": "Volontari",
+    "campagne": [
+      "1866"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78682,
+    "album": 10588,
+    "pagina": 273,
+    "matricola": "1771",
+    "nome": "Silva Primo Luigi di Giovanni",
+    "cognome": "Silva",
+    "grado": "Carabiniere",
+    "corpo": "Legione di Torino",
+    "categoria": "Altri corpi",
+    "campagne": [
+      "1859",
+      "1866"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78681,
+    "album": 10589,
+    "pagina": 273,
+    "matricola": "901",
+    "nome": "Silvani Pacifico Giuseppe di Giovanni Battista",
+    "cognome": "Silvani",
+    "grado": "Sergente",
+    "corpo": "1° Regg. Artiglieria",
+    "categoria": "Artiglieria",
+    "campagne": [
+      "1866"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78680,
+    "album": 10590,
+    "pagina": 273,
+    "matricola": "12551",
+    "nome": "Spinelli Giuseppe Gerolamo di Pietro",
+    "cognome": "Spinelli",
+    "grado": "Soldato",
+    "corpo": "11° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1848",
+      "1849"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78679,
+    "album": 10591,
+    "pagina": 273,
+    "matricola": "5097",
+    "nome": "Tavaglino Pietro Maria di Giovanni Battista",
+    "cognome": "Tavaglino",
+    "grado": "Soldato",
+    "corpo": "Savoia Cavalleria",
+    "categoria": "Cavalleria",
+    "campagne": [
+      "1849"
+    ],
+    "osservazioni": "",
+    "note": ""
+  },
+  {
+    "id": 78678,
+    "album": 10592,
+    "pagina": 273,
+    "matricola": "3859",
+    "nome": "Velata Pietro di Giovachino",
+    "cognome": "Velata",
+    "grado": "Soldato",
+    "corpo": "61° Regg. Fanteria",
+    "categoria": "Fanteria",
+    "campagne": [
+      "1866",
+      "1870"
+    ],
+    "osservazioni": "",
+    "note": ""
+  }
+]

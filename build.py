@@ -4,9 +4,9 @@
 
 Sorgente: combattenti.tsv, trascrizione delle 140 schede del Progetto Torelli
 (Album-Tabella della Torre di San Martino della Battaglia, Libro 2, Provincia
-di Pavia, Comune di Gravellona, pp. 266-273, voci 10453-10592), più le schede
-aggiunte dai ruoli matricolari dell'Archivio di Stato di Torino (colonna
-`fonte`), che restano fuori dai conteggi dell'Album.
+di Pavia, Comune di Gravellona, pp. 266-273, voci 10453-10592); la colonna
+`fonte` segnala gli incroci con i ruoli matricolari dell'Archivio di Stato
+di Torino (tag AS Torino). Le statistiche restano sulle 140 schede dell'Album.
 
 Uso: python3 build.py
 """
@@ -46,6 +46,20 @@ CATEGORIE_ORDINE = [
     "Altri corpi",
 ]
 
+# Tag tematici: una guerra per anno di campagna; «garibaldino» per i corpi
+# volontari di Garibaldi (1866, Corpo dei Volontari Italiani).
+GUERRE = {
+    "1848": ("prima", "Prima", "Prima guerra d'indipendenza"),
+    "1849": ("prima", "Prima", "Prima guerra d'indipendenza"),
+    "1859": ("seconda", "Seconda", "Seconda guerra d'indipendenza"),
+    "1866": ("terza", "Terza", "Terza guerra d'indipendenza"),
+}
+GARIBALDINO = (
+    "garibaldino",
+    "Garibaldino",
+    "1866, Corpo dei Volontari Italiani (Garibaldi)",
+)
+
 
 def categoria(corpo):
     c = corpo.lower()
@@ -77,6 +91,12 @@ def carica():
             corpo = r["corpo"].strip()
             campagne = r["campagna"].split()
             fonte = (r.get("fonte") or "Album-Tabella").strip()
+            tags = []
+            for anno in campagne:
+                if anno in GUERRE and GUERRE[anno][0] not in [t[0] for t in tags]:
+                    tags.append(GUERRE[anno])
+            if "volontari italiani" in corpo.lower():
+                tags.append(GARIBALDINO)
             righe.append(
                 {
                     "id": intero(r["id"]) if r["id"].strip().isdigit() else r["id"].strip(),
@@ -94,6 +114,8 @@ def carica():
                     "fonte": fonte,
                     "fonti": [x.strip() for x in fonte.split("·") if x.strip()],
                     "as_to": "AS Torino" in fonte,
+                    "tags": tags,
+                    "tag": [t[0] for t in tags],
                 }
             )
     righe.sort(key=lambda x: (x["nome"].lower(), x["album"]))
@@ -210,10 +232,14 @@ def riga_tabella(i, r):
             r["osservazioni"],
             r["note"],
             r["fonte"],
+            " ".join(r["tag"]),
+            " ".join(t[1] for t in r["tags"]),
         ]
     )
     if r["album"] == 10514:
         cerca += " Delucca De Luca"
+    if "Grunetti" in r["nome"]:
+        cerca += " Grugnetti"
     matricola = r["matricola"] if r["matricola"] else "—"
     osservazioni = esc(r["osservazioni"]) if r["osservazioni"] else ""
     if r["note"]:
@@ -222,18 +248,23 @@ def riga_tabella(i, r):
     nome_html = f"<strong>{esc(r['nome'])}</strong>"
     if r["album"] == 10514:
         nome_html += ' <span class="rimando">→ <a href="#delucca">Pietro Delucca</a></span>'
+    tags_html = "".join(
+        f'<span class="tag tag-{t[0]}" title="{esc_attr(t[2])}">{esc(t[1])}</span>'
+        for t in r["tags"]
+    )
     if r["as_to"]:
-        nome_html += (
-            ' <span class="tag" title="Archivio di Stato di Torino,'
-            ' ruoli matricolari dei corpi volontari">AS Torino</span>'
+        tags_html += (
+            ' <span class="tag tag-as-to" title="Riscontro o aggiunta dai ruoli'
+            ' matricolari dell\'Archivio di Stato di Torino">AS Torino</span>'
         )
     return (
         f"<tr data-campagne=\"{esc_attr(' '.join(r['campagne']))}\" "
         f"data-categoria=\"{esc_attr(r['categoria'])}\" "
         f"data-fonte=\"{esc_attr(' '.join(r['fonti']))}\" "
+        f"data-tags=\"{esc_attr(' '.join(r['tag']) + (' as-torino' if r['as_to'] else ''))}\" "
         f"data-cerca=\"{esc_attr(cerca)}\">"
         f"<td class=\"n\">{i}</td>"
-        f"<td>{nome_html}</td>"
+        f"<td>{nome_html}<span class=\"tags\">{tags_html}</span></td>"
         f"<td>{esc(r['grado'])}</td>"
         f"<td>{esc(r['corpo'])}</td>"
         f"<td class=\"campagne\">{esc(', '.join(r['campagne']))}</td>"
@@ -256,11 +287,11 @@ HTML = f"""<!doctype html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Guerre d'indipendenza — Gravellona Lomellina</title>
-<meta name="description" content="140 combattenti gravellonesi delle guerre d'indipendenza e del Risorgimento, 1848-1870, più un volontario dai ruoli dell'Archivio di Stato di Torino: tabella, dati e ricerca.">
+<meta name="description" content="140 combattenti gravellonesi delle guerre d'indipendenza e del Risorgimento, 1848-1870: tabella con tag per guerra, garibaldini e fonti, dati e ricerca.">
 <link rel="canonical" href="{SITE_URL}">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Guerre d'indipendenza — Gravellona Lomellina">
-<meta property="og:description" content="140 combattenti gravellonesi del Risorgimento, 1848-1870, più un volontario dai ruoli dell'Archivio di Stato di Torino: tabella, dati e ricerca.">
+<meta property="og:description" content="140 combattenti gravellonesi del Risorgimento, 1848-1870: tabella, dati e ricerca.">
 <meta property="og:url" content="{SITE_URL}">
 <link rel="stylesheet" href="style.css">
 </head>
@@ -280,7 +311,7 @@ HTML = f"""<!doctype html>
   <h1>I gravellonesi delle guerre d'indipendenza</h1>
   <p class="lead">L'Album-Tabella della Torre di San Martino della Battaglia registra <strong>{N} gravellonesi</strong> che presero parte alle campagne militari del Risorgimento, dal 1848 al 1870. Non è un elenco di caduti: è un elenco di combattenti. Le schede dicono grado, corpo e anni di campagna; solo {CON_OSSERVAZIONE} hanno un'osservazione, e solo tre riguardano il sangue: un morto a Custoza, un ferito a Villafranca, un disperso nel 1848.</p>
 
-  <p>Ai {N} dell'Album si aggiunge <strong>Grugnetti Gaudenzio</strong> (1866), che non compare nell'Album ma nei ruoli matricolari dei corpi volontari dell'<strong>Archivio di Stato di Torino</strong>: in tabella porta il tag <span class="tag">AS Torino</span>. I conteggi e le statistiche restano quelli delle {N} schede dell'Album.</p>
+  <p>Ogni scheda porta i tag della guerra combattuta — <span class="tag tag-prima">Prima</span> <span class="tag tag-seconda">Seconda</span> <span class="tag tag-terza">Terza</span> — e quello di <span class="tag tag-garibaldino">Garibaldino</span>, per i volontari del Corpo dei Volontari Italiani del 1866. Due schede hanno il tag <span class="tag tag-as-to">AS Torino</span>: un riscontro dai ruoli matricolari dell'Archivio di Stato di Torino, che aggiunge età, maternità e segnatura d'archivio.</p>
 
   <ul class="numeri">
     <li><strong>{N}</strong><span>combattenti</span></li>
@@ -372,7 +403,7 @@ HTML = f"""<!doctype html>
 
   <p class="avvertenza">Anche qui la ripartizione è ricostruita per reparto, non provata scheda per scheda. I sette del <strong>61° Fanteria</strong> sono il secondo gruppo omogeneo del paese dopo l'11°-12° del 1849-1859.</p>
 
-  <p>Un volontario del 1866 non è nell'Album ma nei <strong>ruoli matricolari dell'Archivio di Stato di Torino</strong>: <strong>Grugnetti Gaudenzio</strong> di Carlo, 19 anni, del Corpo dei Volontari Italiani, <strong>prigioniero a Bezzecca il 21 luglio 1866</strong> (mazzo 122). In tabella è segnato con il tag <span class="tag">AS Torino</span>. Dallo stesso fondo viene il riscontro su <strong>Silva Giuseppe</strong> fu Giovanni, caporale del 4° Fanteria Volontari Italiani, 36 anni, madre Rigoni Anna (mazzo 119): è lo stesso uomo dell'Album n. 10587. Resta fuori <strong>Collini Giacomo</strong>, nato a <em>Gravellona Toce</em> (Novara), non a Gravellona Lomellina.</p>
+  <p>Due volontari del 1866 hanno un <strong>riscontro nei ruoli matricolari dell'Archivio di Stato di Torino</strong>. <strong>Grunetti Gaudenzio</strong> di Carlo, soldato del 5° Fanteria Volontari Italiani, è detto <strong>prigioniero a Bezzecca il 21 luglio 1866</strong> (mazzo 122), dove l'AS Torino lo registra come <em>Grugnetti</em>. <strong>Silva Giuseppe</strong> fu Giovanni, caporale del 4° Fanteria Volontari Italiani, ha 36 anni e madre Rigoni Anna (mazzo 119). Resta fuori <strong>Collini Giacomo</strong>, nato a <em>Gravellona Toce</em> (Novara), non a Gravellona Lomellina.</p>
 
   <h2 id="perdite">Perdite e decorazioni</h2>
   <p>Le perdite non hanno una colonna propria: l'Album le annota, quando le annota, nelle <em>Osservazioni</em>. Su {N} schede solo <strong>{CON_OSSERVAZIONE}</strong> hanno un'osservazione; queste sono tutte.</p>
@@ -395,7 +426,7 @@ HTML = f"""<!doctype html>
   <p>Le decorazioni registrate sono quattro: <strong>Sempio Giuseppe</strong> (Novara Cavalleria, medaglia d'argento a Macerone, 1860), <strong>Curti Carlo Maria</strong> (24° Fanteria, medaglia d'argento), <strong>Barbavara Gravellona cav. Ottavio Costantino Antonio Maria</strong> (49° Fanteria, croce dell'Ordine Militare di Savoia e medaglia d'argento) e il già citato <strong>Barbavara di Gravellona cav. Ottavio di Costantino</strong>.</p>
 
   <h2 id="elenco">L'elenco</h2>
-  <p>Tabella completa dei {N_TOT} combattenti, in ordine alfabetico. Cerca per nome, grado, corpo, campagna, matricola o osservazione; filtra per anno, tipo di corpo e fonte.</p>
+  <p>Tabella completa dei {N} combattenti, in ordine alfabetico. Cerca per nome, grado, corpo, campagna, matricola o osservazione; filtra per anno, guerra, tipo di corpo e fonte.</p>
 
   <div class="filtri">
     <div class="filtro">
@@ -417,11 +448,14 @@ HTML = f"""<!doctype html>
       </select>
     </div>
     <div class="filtro">
-      <label for="fonte">Fonte</label>
-      <select id="fonte">
-        <option value="">tutte</option>
-        <option value="Album-Tabella">Album-Tabella</option>
-        <option value="AS Torino">AS Torino (ruoli matricolari)</option>
+      <label for="tag">Tag</label>
+      <select id="tag">
+        <option value="">tutti</option>
+        <option value="prima">Prima guerra d'indipendenza</option>
+        <option value="seconda">Seconda guerra d'indipendenza</option>
+        <option value="terza">Terza guerra d'indipendenza</option>
+        <option value="garibaldino">Garibaldini</option>
+        <option value="as-torino">AS Torino (riscontri)</option>
       </select>
     </div>
     <div class="filtro filtro-azione">
@@ -453,7 +487,7 @@ HTML = f"""<!doctype html>
   </div>
   <p id="nessun-risultato" hidden>Nessun risultato.</p>
 
-  <p class="legenda"><strong>Campagne</strong>: anni di campagna, non singole battaglie. <strong>Osservazioni</strong>: solo {CON_OSSERVAZIONE} schede su {N}. <strong>Matricola</strong>: manca per {SENZA_MATRICOLA} ufficiali. <strong>Album</strong>: numero di voce nell'Album-Tabella (10453-10592); il trattino indica una scheda che dall'Album non viene. <strong>AS Torino</strong>: riscontro o aggiunta dai ruoli matricolari dei corpi volontari (Archivio di Stato di Torino), fuori dai conteggi dell'Album. L'elenco è in ordine alfabetico.</p>
+  <p class="legenda"><strong>Tag</strong>: <em>Prima/Seconda/Terza</em> guerra d'indipendenza secondo gli anni di campagna; <em>Garibaldino</em> per i volontari del 1866 (Corpo dei Volontari Italiani); <em>AS Torino</em> per gli incroci con i ruoli matricolari dell'Archivio di Stato di Torino. <strong>Osservazioni</strong>: solo {CON_OSSERVAZIONE} schede su {N}. <strong>Matricola</strong>: manca per {SENZA_MATRICOLA} ufficiali. <strong>Album</strong>: numero di voce nell'Album-Tabella (10453-10592). L'elenco è in ordine alfabetico.</p>
 
   <h2 id="fonti">Fonti e metodo</h2>
   <ul class="fonti">
@@ -484,7 +518,7 @@ HTML = f"""<!doctype html>
 
 (ROOT / "index.html").write_text(HTML, encoding="utf-8")
 
-print(f"index.html: {N_TOT} record ({N} Album + {N_TOT - N} aggiunta AS Torino), {len(HTML)} byte")
+print(f"index.html: {N} record ({N_AS_TO} con riscontro AS Torino), {len(HTML)} byte")
 print(f"corpi distinti: {N_CORPI}; cognomi: {N_COGNOMI}; osservazioni: {CON_OSSERVAZIONE}")
 print("campagne:", dict(sorted(CAMPAGNE.items())))
 print("categorie:", dict(CATEGORIE))

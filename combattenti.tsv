@@ -57,7 +57,7 @@ id	numero	pagina	matricola	nome_listing	grado	corpo	campagna	oss	note	fonte
 78733	10537	270	9485	Libertà Luigi di Pietro	Soldato	27° Regg. Fanteria	1870			Album-Tabella
 78734	10536	270	3302	Landini Edoardo di Giuseppe	Soldato	1° Regg. Granatieri	1859 1860			Album-Tabella
 78735	10535	270	11839	Guvernizio Giuseppe Antonio di Carlo Antonio	Soldato	11° Regg. Fanteria	1849 1859			Album-Tabella
-78736	10534	270	1961	Grunetti Gaudenzio di Carlo	Soldato	5° Regg. Fanteria Volontari Italiani	1866			Album-Tabella
+78736	10534	270	1961	Grunetti Gaudenzio di Carlo	Soldato	5° Regg. Fanteria Volontari Italiani	1866		Prigioniero a Bezzecca il 21 luglio 1866 · Riscontro AS Torino, mazzo 122 (Grugnetti)	Album-Tabella · AS Torino
 78737	10533	270	8728	Grugnetti Carlo di Giuseppe	Soldato	34° Regg. Fanteria	1866			Album-Tabella
 78738	10532	270	2229	Gilardone Giuseppe Antonio di Pietro	Caporale	Cavalleggeri di Saluzzo	1859			Album-Tabella
 78739	10531	270	2047	Gilardone Giuseppe di Bernardo	Soldato	1° Regg. Granatieri	1855 1859			Album-Tabella
@@ -139,4 +139,3 @@ id	numero	pagina	matricola	nome_listing	grado	corpo	campagna	oss	note	fonte
 78815	10455	266	2030	Barato Luigi di Carlo	Soldato	40° Regg. Fanteria	1861			Album-Tabella
 78816	10454	266	10507	Baj Luigi di Alberto	Soldato	11° Regg. Fanteria	1848			Album-Tabella
 78817	10453	266	13807	Albini Giovanni di Giovanni Battista	Soldato	17° Regg. Fanteria	1859			Album-Tabella
-AS-TO-62280				Grugnetti Gaudenzio di Carlo	—	Corpo Volontari Italiani	1866	Prigioniero a Bezzecca il 21 luglio 1866	AS Torino, mazzo 122	AS Torino

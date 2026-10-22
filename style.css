@@ -87,10 +87,14 @@ td.n,th.n{text-align:right;white-space:nowrap}
   font-size:.62em;font-weight:600;letter-spacing:.02em;
   text-transform:uppercase;line-height:1.4;
   padding:.05em .4em;margin-left:.15em;
-  border:1px solid var(--mattone);border-radius:3px;
-  color:var(--mattone);background:#fdf7f2;
+  border:1px solid var(--grigio);border-radius:3px;
+  color:var(--grigio);background:#f6f3ec;
   vertical-align:.12em;white-space:nowrap;
 }
+.tag-prima,.tag-seconda,.tag-terza{border-color:var(--ocra);color:#7a6414;background:#fbf6e6}
+.tag-garibaldino{border-color:var(--mattone);color:var(--mattone);background:#fdf7f2}
+.tag-as-to{border-color:var(--inchiostro);color:var(--inchiostro);background:#f2f0e9}
+.tags{display:block;margin-top:.1em}
 .tabella-scroll{
   overflow-x:auto;-webkit-overflow-scrolling:touch;
   border:1px solid #e5dcc8;border-radius:6px;margin:.8em 0 1em;

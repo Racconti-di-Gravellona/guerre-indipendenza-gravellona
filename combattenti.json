@@ -18,7 +18,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "seconda",
+        "Seconda",
+        "Seconda guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "seconda"
+    ]
   },
   {
     "id": 78816,
@@ -39,7 +49,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "prima",
+        "Prima",
+        "Prima guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "prima"
+    ]
   },
   {
     "id": 78815,
@@ -60,7 +80,9 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [],
+    "tag": []
   },
   {
     "id": 78814,
@@ -84,7 +106,29 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "prima",
+        "Prima",
+        "Prima guerra d'indipendenza"
+      ],
+      [
+        "seconda",
+        "Seconda",
+        "Seconda guerra d'indipendenza"
+      ],
+      [
+        "terza",
+        "Terza",
+        "Terza guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "prima",
+      "seconda",
+      "terza"
+    ]
   },
   {
     "id": 78811,
@@ -107,7 +151,23 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "prima",
+        "Prima",
+        "Prima guerra d'indipendenza"
+      ],
+      [
+        "terza",
+        "Terza",
+        "Terza guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "prima",
+      "terza"
+    ]
   },
   {
     "id": 78813,
@@ -128,7 +188,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "seconda",
+        "Seconda",
+        "Seconda guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "seconda"
+    ]
   },
   {
     "id": 78810,
@@ -152,7 +222,23 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "prima",
+        "Prima",
+        "Prima guerra d'indipendenza"
+      ],
+      [
+        "terza",
+        "Terza",
+        "Terza guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "prima",
+      "terza"
+    ]
   },
   {
     "id": 78812,
@@ -173,7 +259,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "terza",
+        "Terza",
+        "Terza guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "terza"
+    ]
   },
   {
     "id": 78808,
@@ -194,7 +290,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "seconda",
+        "Seconda",
+        "Seconda guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "seconda"
+    ]
   },
   {
     "id": 78807,
@@ -216,7 +322,9 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [],
+    "tag": []
   },
   {
     "id": 78806,
@@ -237,7 +345,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "terza",
+        "Terza",
+        "Terza guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "terza"
+    ]
   },
   {
     "id": 78809,
@@ -258,7 +376,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "prima",
+        "Prima",
+        "Prima guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "prima"
+    ]
   },
   {
     "id": 78804,
@@ -280,7 +408,23 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "seconda",
+        "Seconda",
+        "Seconda guerra d'indipendenza"
+      ],
+      [
+        "terza",
+        "Terza",
+        "Terza guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "seconda",
+      "terza"
+    ]
   },
   {
     "id": 78805,
@@ -302,7 +446,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "terza",
+        "Terza",
+        "Terza guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "terza"
+    ]
   },
   {
     "id": 78803,
@@ -324,7 +478,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "prima",
+        "Prima",
+        "Prima guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "prima"
+    ]
   },
   {
     "id": 78802,
@@ -346,7 +510,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "prima",
+        "Prima",
+        "Prima guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "prima"
+    ]
   },
   {
     "id": 78799,
@@ -367,7 +541,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "terza",
+        "Terza",
+        "Terza guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "terza"
+    ]
   },
   {
     "id": 78800,
@@ -390,7 +574,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "seconda",
+        "Seconda",
+        "Seconda guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "seconda"
+    ]
   },
   {
     "id": 78801,
@@ -412,7 +606,23 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "prima",
+        "Prima",
+        "Prima guerra d'indipendenza"
+      ],
+      [
+        "seconda",
+        "Seconda",
+        "Seconda guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "prima",
+      "seconda"
+    ]
   },
   {
     "id": 78798,
@@ -433,7 +643,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "prima",
+        "Prima",
+        "Prima guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "prima"
+    ]
   },
   {
     "id": 78797,
@@ -454,7 +674,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "seconda",
+        "Seconda",
+        "Seconda guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "seconda"
+    ]
   },
   {
     "id": 78796,
@@ -476,7 +706,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "prima",
+        "Prima",
+        "Prima guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "prima"
+    ]
   },
   {
     "id": 78795,
@@ -498,7 +738,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "prima",
+        "Prima",
+        "Prima guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "prima"
+    ]
   },
   {
     "id": 78794,
@@ -519,7 +769,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "terza",
+        "Terza",
+        "Terza guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "terza"
+    ]
   },
   {
     "id": 78793,
@@ -541,7 +801,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "prima",
+        "Prima",
+        "Prima guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "prima"
+    ]
   },
   {
     "id": 78792,
@@ -562,7 +832,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "terza",
+        "Terza",
+        "Terza guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "terza"
+    ]
   },
   {
     "id": 78791,
@@ -585,7 +865,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "seconda",
+        "Seconda",
+        "Seconda guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "seconda"
+    ]
   },
   {
     "id": 78790,
@@ -606,7 +896,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "seconda",
+        "Seconda",
+        "Seconda guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "seconda"
+    ]
   },
   {
     "id": 78789,
@@ -627,7 +927,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "terza",
+        "Terza",
+        "Terza guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "terza"
+    ]
   },
   {
     "id": 78788,
@@ -649,7 +959,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "terza",
+        "Terza",
+        "Terza guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "terza"
+    ]
   },
   {
     "id": 78787,
@@ -671,7 +991,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "prima",
+        "Prima",
+        "Prima guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "prima"
+    ]
   },
   {
     "id": 78786,
@@ -692,7 +1022,9 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [],
+    "tag": []
   },
   {
     "id": 78785,
@@ -714,7 +1046,9 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [],
+    "tag": []
   },
   {
     "id": 78784,
@@ -735,7 +1069,9 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [],
+    "tag": []
   },
   {
     "id": 78783,
@@ -757,7 +1093,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "seconda",
+        "Seconda",
+        "Seconda guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "seconda"
+    ]
   },
   {
     "id": 78782,
@@ -778,7 +1124,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "terza",
+        "Terza",
+        "Terza guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "terza"
+    ]
   },
   {
     "id": 78781,
@@ -800,7 +1156,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "prima",
+        "Prima",
+        "Prima guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "prima"
+    ]
   },
   {
     "id": 78780,
@@ -822,7 +1188,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "terza",
+        "Terza",
+        "Terza guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "terza"
+    ]
   },
   {
     "id": 78779,
@@ -843,7 +1219,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "prima",
+        "Prima",
+        "Prima guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "prima"
+    ]
   },
   {
     "id": 78778,
@@ -864,7 +1250,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "terza",
+        "Terza",
+        "Terza guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "terza"
+    ]
   },
   {
     "id": 78777,
@@ -885,7 +1281,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "seconda",
+        "Seconda",
+        "Seconda guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "seconda"
+    ]
   },
   {
     "id": 78776,
@@ -907,7 +1313,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "terza",
+        "Terza",
+        "Terza guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "terza"
+    ]
   },
   {
     "id": 78775,
@@ -928,7 +1344,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "prima",
+        "Prima",
+        "Prima guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "prima"
+    ]
   },
   {
     "id": 78773,
@@ -950,7 +1376,23 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "prima",
+        "Prima",
+        "Prima guerra d'indipendenza"
+      ],
+      [
+        "seconda",
+        "Seconda",
+        "Seconda guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "prima",
+      "seconda"
+    ]
   },
   {
     "id": 78774,
@@ -972,7 +1414,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "prima",
+        "Prima",
+        "Prima guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "prima"
+    ]
   },
   {
     "id": 78772,
@@ -996,7 +1448,23 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "seconda",
+        "Seconda",
+        "Seconda guerra d'indipendenza"
+      ],
+      [
+        "terza",
+        "Terza",
+        "Terza guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "seconda",
+      "terza"
+    ]
   },
   {
     "id": 78771,
@@ -1017,7 +1485,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "terza",
+        "Terza",
+        "Terza guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "terza"
+    ]
   },
   {
     "id": 78770,
@@ -1038,7 +1516,9 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [],
+    "tag": []
   },
   {
     "id": 78769,
@@ -1059,7 +1539,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "terza",
+        "Terza",
+        "Terza guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "terza"
+    ]
   },
   {
     "id": 78768,
@@ -1080,7 +1570,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "seconda",
+        "Seconda",
+        "Seconda guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "seconda"
+    ]
   },
   {
     "id": 78767,
@@ -1101,7 +1601,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "prima",
+        "Prima",
+        "Prima guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "prima"
+    ]
   },
   {
     "id": 78766,
@@ -1124,7 +1634,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "seconda",
+        "Seconda",
+        "Seconda guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "seconda"
+    ]
   },
   {
     "id": 78765,
@@ -1146,7 +1666,9 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [],
+    "tag": []
   },
   {
     "id": 78764,
@@ -1168,7 +1690,23 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "prima",
+        "Prima",
+        "Prima guerra d'indipendenza"
+      ],
+      [
+        "seconda",
+        "Seconda",
+        "Seconda guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "prima",
+      "seconda"
+    ]
   },
   {
     "id": 78763,
@@ -1190,7 +1728,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "prima",
+        "Prima",
+        "Prima guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "prima"
+    ]
   },
   {
     "id": 78762,
@@ -1212,7 +1760,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "terza",
+        "Terza",
+        "Terza guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "terza"
+    ]
   },
   {
     "id": 78761,
@@ -1233,7 +1791,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "terza",
+        "Terza",
+        "Terza guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "terza"
+    ]
   },
   {
     "id": 78760,
@@ -1255,7 +1823,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "prima",
+        "Prima",
+        "Prima guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "prima"
+    ]
   },
   {
     "id": 78759,
@@ -1276,7 +1854,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "terza",
+        "Terza",
+        "Terza guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "terza"
+    ]
   },
   {
     "id": 78758,
@@ -1297,7 +1885,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "terza",
+        "Terza",
+        "Terza guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "terza"
+    ]
   },
   {
     "id": 78757,
@@ -1318,7 +1916,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "terza",
+        "Terza",
+        "Terza guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "terza"
+    ]
   },
   {
     "id": 78756,
@@ -1339,7 +1947,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "prima",
+        "Prima",
+        "Prima guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "prima"
+    ]
   },
   {
     "id": 78755,
@@ -1361,7 +1979,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "prima",
+        "Prima",
+        "Prima guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "prima"
+    ]
   },
   {
     "id": 78754,
@@ -1384,7 +2012,23 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "seconda",
+        "Seconda",
+        "Seconda guerra d'indipendenza"
+      ],
+      [
+        "terza",
+        "Terza",
+        "Terza guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "seconda",
+      "terza"
+    ]
   },
   {
     "id": 78753,
@@ -1405,7 +2049,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "terza",
+        "Terza",
+        "Terza guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "terza"
+    ]
   },
   {
     "id": 78752,
@@ -1427,7 +2081,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "prima",
+        "Prima",
+        "Prima guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "prima"
+    ]
   },
   {
     "id": 78751,
@@ -1450,7 +2114,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "seconda",
+        "Seconda",
+        "Seconda guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "seconda"
+    ]
   },
   {
     "id": 78750,
@@ -1471,7 +2145,9 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [],
+    "tag": []
   },
   {
     "id": 78749,
@@ -1493,7 +2169,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "prima",
+        "Prima",
+        "Prima guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "prima"
+    ]
   },
   {
     "id": 78748,
@@ -1514,7 +2200,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "prima",
+        "Prima",
+        "Prima guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "prima"
+    ]
   },
   {
     "id": 78747,
@@ -1536,7 +2232,9 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [],
+    "tag": []
   },
   {
     "id": 78746,
@@ -1557,7 +2255,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "terza",
+        "Terza",
+        "Terza guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "terza"
+    ]
   },
   {
     "id": 78745,
@@ -1579,7 +2287,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "prima",
+        "Prima",
+        "Prima guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "prima"
+    ]
   },
   {
     "id": 78744,
@@ -1600,7 +2318,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "prima",
+        "Prima",
+        "Prima guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "prima"
+    ]
   },
   {
     "id": 78743,
@@ -1622,7 +2350,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "prima",
+        "Prima",
+        "Prima guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "prima"
+    ]
   },
   {
     "id": 78742,
@@ -1643,7 +2381,9 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [],
+    "tag": []
   },
   {
     "id": 78741,
@@ -1664,7 +2404,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "seconda",
+        "Seconda",
+        "Seconda guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "seconda"
+    ]
   },
   {
     "id": 78740,
@@ -1685,7 +2435,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "prima",
+        "Prima",
+        "Prima guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "prima"
+    ]
   },
   {
     "id": 78738,
@@ -1706,7 +2466,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "seconda",
+        "Seconda",
+        "Seconda guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "seconda"
+    ]
   },
   {
     "id": 78739,
@@ -1728,7 +2498,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "seconda",
+        "Seconda",
+        "Seconda guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "seconda"
+    ]
   },
   {
     "id": 78737,
@@ -1749,28 +2529,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
-  },
-  {
-    "id": "AS-TO-62280",
-    "album": 0,
-    "pagina": 0,
-    "matricola": "",
-    "nome": "Grugnetti Gaudenzio di Carlo",
-    "cognome": "Grugnetti",
-    "grado": "—",
-    "corpo": "Corpo Volontari Italiani",
-    "categoria": "Volontari",
-    "campagne": [
-      "1866"
+    "as_to": false,
+    "tags": [
+      [
+        "terza",
+        "Terza",
+        "Terza guerra d'indipendenza"
+      ]
     ],
-    "osservazioni": "Prigioniero a Bezzecca il 21 luglio 1866",
-    "note": "AS Torino, mazzo 122",
-    "fonte": "AS Torino",
-    "fonti": [
-      "AS Torino"
-    ],
-    "as_to": true
+    "tag": [
+      "terza"
+    ]
   },
   {
     "id": 78736,
@@ -1786,12 +2555,29 @@
       "1866"
     ],
     "osservazioni": "",
-    "note": "",
-    "fonte": "Album-Tabella",
+    "note": "Prigioniero a Bezzecca il 21 luglio 1866 · Riscontro AS Torino, mazzo 122 (Grugnetti)",
+    "fonte": "Album-Tabella · AS Torino",
     "fonti": [
-      "Album-Tabella"
+      "Album-Tabella",
+      "AS Torino"
     ],
-    "as_to": false
+    "as_to": true,
+    "tags": [
+      [
+        "terza",
+        "Terza",
+        "Terza guerra d'indipendenza"
+      ],
+      [
+        "garibaldino",
+        "Garibaldino",
+        "1866, Corpo dei Volontari Italiani (Garibaldi)"
+      ]
+    ],
+    "tag": [
+      "terza",
+      "garibaldino"
+    ]
   },
   {
     "id": 78735,
@@ -1813,7 +2599,23 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "prima",
+        "Prima",
+        "Prima guerra d'indipendenza"
+      ],
+      [
+        "seconda",
+        "Seconda",
+        "Seconda guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "prima",
+      "seconda"
+    ]
   },
   {
     "id": 78734,
@@ -1835,7 +2637,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "seconda",
+        "Seconda",
+        "Seconda guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "seconda"
+    ]
   },
   {
     "id": 78733,
@@ -1856,7 +2668,9 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [],
+    "tag": []
   },
   {
     "id": 78732,
@@ -1877,7 +2691,9 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [],
+    "tag": []
   },
   {
     "id": 78731,
@@ -1899,7 +2715,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "prima",
+        "Prima",
+        "Prima guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "prima"
+    ]
   },
   {
     "id": 78730,
@@ -1920,7 +2746,9 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [],
+    "tag": []
   },
   {
     "id": 78729,
@@ -1941,7 +2769,9 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [],
+    "tag": []
   },
   {
     "id": 78728,
@@ -1962,7 +2792,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "prima",
+        "Prima",
+        "Prima guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "prima"
+    ]
   },
   {
     "id": 78727,
@@ -1983,7 +2823,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "prima",
+        "Prima",
+        "Prima guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "prima"
+    ]
   },
   {
     "id": 78726,
@@ -2004,7 +2854,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "seconda",
+        "Seconda",
+        "Seconda guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "seconda"
+    ]
   },
   {
     "id": 78725,
@@ -2025,7 +2885,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "terza",
+        "Terza",
+        "Terza guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "terza"
+    ]
   },
   {
     "id": 78724,
@@ -2046,7 +2916,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "prima",
+        "Prima",
+        "Prima guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "prima"
+    ]
   },
   {
     "id": 78723,
@@ -2068,7 +2948,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "prima",
+        "Prima",
+        "Prima guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "prima"
+    ]
   },
   {
     "id": 78722,
@@ -2089,7 +2979,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "terza",
+        "Terza",
+        "Terza guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "terza"
+    ]
   },
   {
     "id": 78721,
@@ -2111,7 +3011,23 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "seconda",
+        "Seconda",
+        "Seconda guerra d'indipendenza"
+      ],
+      [
+        "terza",
+        "Terza",
+        "Terza guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "seconda",
+      "terza"
+    ]
   },
   {
     "id": 78720,
@@ -2133,7 +3049,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "prima",
+        "Prima",
+        "Prima guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "prima"
+    ]
   },
   {
     "id": 78719,
@@ -2155,7 +3081,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "prima",
+        "Prima",
+        "Prima guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "prima"
+    ]
   },
   {
     "id": 78718,
@@ -2176,7 +3112,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "terza",
+        "Terza",
+        "Terza guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "terza"
+    ]
   },
   {
     "id": 78717,
@@ -2197,7 +3143,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "terza",
+        "Terza",
+        "Terza guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "terza"
+    ]
   },
   {
     "id": 78716,
@@ -2218,7 +3174,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "terza",
+        "Terza",
+        "Terza guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "terza"
+    ]
   },
   {
     "id": 78715,
@@ -2239,7 +3205,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "terza",
+        "Terza",
+        "Terza guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "terza"
+    ]
   },
   {
     "id": 78714,
@@ -2261,7 +3237,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "prima",
+        "Prima",
+        "Prima guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "prima"
+    ]
   },
   {
     "id": 78713,
@@ -2282,7 +3268,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "terza",
+        "Terza",
+        "Terza guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "terza"
+    ]
   },
   {
     "id": 78712,
@@ -2303,7 +3299,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "prima",
+        "Prima",
+        "Prima guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "prima"
+    ]
   },
   {
     "id": 78711,
@@ -2324,7 +3330,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "seconda",
+        "Seconda",
+        "Seconda guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "seconda"
+    ]
   },
   {
     "id": 78710,
@@ -2345,7 +3361,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "terza",
+        "Terza",
+        "Terza guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "terza"
+    ]
   },
   {
     "id": 78709,
@@ -2367,7 +3393,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "prima",
+        "Prima",
+        "Prima guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "prima"
+    ]
   },
   {
     "id": 78708,
@@ -2388,7 +3424,9 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [],
+    "tag": []
   },
   {
     "id": 78707,
@@ -2410,7 +3448,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "prima",
+        "Prima",
+        "Prima guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "prima"
+    ]
   },
   {
     "id": 78706,
@@ -2431,7 +3479,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "prima",
+        "Prima",
+        "Prima guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "prima"
+    ]
   },
   {
     "id": 78705,
@@ -2452,7 +3510,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "terza",
+        "Terza",
+        "Terza guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "terza"
+    ]
   },
   {
     "id": 78704,
@@ -2474,7 +3542,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "terza",
+        "Terza",
+        "Terza guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "terza"
+    ]
   },
   {
     "id": 78703,
@@ -2495,7 +3573,9 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [],
+    "tag": []
   },
   {
     "id": 78702,
@@ -2516,7 +3596,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "terza",
+        "Terza",
+        "Terza guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "terza"
+    ]
   },
   {
     "id": 78700,
@@ -2537,7 +3627,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "seconda",
+        "Seconda",
+        "Seconda guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "seconda"
+    ]
   },
   {
     "id": 78701,
@@ -2558,7 +3658,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "terza",
+        "Terza",
+        "Terza guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "terza"
+    ]
   },
   {
     "id": 78697,
@@ -2579,7 +3689,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "prima",
+        "Prima",
+        "Prima guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "prima"
+    ]
   },
   {
     "id": 78699,
@@ -2601,7 +3721,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "terza",
+        "Terza",
+        "Terza guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "terza"
+    ]
   },
   {
     "id": 78698,
@@ -2623,7 +3753,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "prima",
+        "Prima",
+        "Prima guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "prima"
+    ]
   },
   {
     "id": 78696,
@@ -2645,7 +3785,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "prima",
+        "Prima",
+        "Prima guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "prima"
+    ]
   },
   {
     "id": 78695,
@@ -2669,7 +3819,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "prima",
+        "Prima",
+        "Prima guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "prima"
+    ]
   },
   {
     "id": 78694,
@@ -2690,7 +3850,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "terza",
+        "Terza",
+        "Terza guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "terza"
+    ]
   },
   {
     "id": 78693,
@@ -2711,7 +3881,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "prima",
+        "Prima",
+        "Prima guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "prima"
+    ]
   },
   {
     "id": 78692,
@@ -2733,7 +3913,23 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "prima",
+        "Prima",
+        "Prima guerra d'indipendenza"
+      ],
+      [
+        "seconda",
+        "Seconda",
+        "Seconda guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "prima",
+      "seconda"
+    ]
   },
   {
     "id": 78688,
@@ -2759,7 +3955,29 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "prima",
+        "Prima",
+        "Prima guerra d'indipendenza"
+      ],
+      [
+        "seconda",
+        "Seconda",
+        "Seconda guerra d'indipendenza"
+      ],
+      [
+        "terza",
+        "Terza",
+        "Terza guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "prima",
+      "seconda",
+      "terza"
+    ]
   },
   {
     "id": 78691,
@@ -2781,7 +3999,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "prima",
+        "Prima",
+        "Prima guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "prima"
+    ]
   },
   {
     "id": 78690,
@@ -2803,7 +4031,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "prima",
+        "Prima",
+        "Prima guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "prima"
+    ]
   },
   {
     "id": 78689,
@@ -2824,7 +4062,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "seconda",
+        "Seconda",
+        "Seconda guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "seconda"
+    ]
   },
   {
     "id": 78687,
@@ -2845,7 +4093,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "terza",
+        "Terza",
+        "Terza guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "terza"
+    ]
   },
   {
     "id": 78686,
@@ -2866,7 +4124,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "prima",
+        "Prima",
+        "Prima guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "prima"
+    ]
   },
   {
     "id": 78685,
@@ -2887,7 +4155,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "prima",
+        "Prima",
+        "Prima guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "prima"
+    ]
   },
   {
     "id": 78684,
@@ -2910,7 +4188,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "seconda",
+        "Seconda",
+        "Seconda guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "seconda"
+    ]
   },
   {
     "id": 78683,
@@ -2932,7 +4220,23 @@
       "Album-Tabella",
       "AS Torino"
     ],
-    "as_to": true
+    "as_to": true,
+    "tags": [
+      [
+        "terza",
+        "Terza",
+        "Terza guerra d'indipendenza"
+      ],
+      [
+        "garibaldino",
+        "Garibaldino",
+        "1866, Corpo dei Volontari Italiani (Garibaldi)"
+      ]
+    ],
+    "tag": [
+      "terza",
+      "garibaldino"
+    ]
   },
   {
     "id": 78682,
@@ -2954,7 +4258,23 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "seconda",
+        "Seconda",
+        "Seconda guerra d'indipendenza"
+      ],
+      [
+        "terza",
+        "Terza",
+        "Terza guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "seconda",
+      "terza"
+    ]
   },
   {
     "id": 78681,
@@ -2975,7 +4295,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "terza",
+        "Terza",
+        "Terza guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "terza"
+    ]
   },
   {
     "id": 78680,
@@ -2997,7 +4327,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "prima",
+        "Prima",
+        "Prima guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "prima"
+    ]
   },
   {
     "id": 78679,
@@ -3018,7 +4358,17 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "prima",
+        "Prima",
+        "Prima guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "prima"
+    ]
   },
   {
     "id": 78678,
@@ -3040,6 +4390,16 @@
     "fonti": [
       "Album-Tabella"
     ],
-    "as_to": false
+    "as_to": false,
+    "tags": [
+      [
+        "terza",
+        "Terza",
+        "Terza guerra d'indipendenza"
+      ]
+    ],
+    "tag": [
+      "terza"
+    ]
   }
 ]

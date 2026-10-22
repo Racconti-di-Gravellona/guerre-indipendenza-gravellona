@@ -1,9 +1,7 @@
 # Guerre d'indipendenza — Gravellona Lomellina
 
 Sito statico autonomo sui **140 combattenti gravellonesi** registrati negli
-Album-Tabella della Torre di San Martino della Battaglia, dal 1848 al 1870,
-**più un volontario del 1866** aggiunto dai ruoli matricolari dell'Archivio di
-Stato di Torino (tag `AS Torino` in tabella).
+Album-Tabella della Torre di San Martino della Battaglia, dal 1848 al 1870.
 
 **URL:** <https://racconti-di-gravellona.github.io/guerre-indipendenza-gravellona/>
 
@@ -12,12 +10,12 @@ ne dipende.
 
 ## Cosa contiene
 
-- Tabella completa di **141 schede**: 140 dall'Album (nominativo, grado, corpo,
-  campagne, osservazioni, matricola, numero d'album) e 1 dai ruoli AS Torino
-  (Grugnetti Gaudenzio, prigioniero a Bezzecca).
-- Tag `AS Torino` sulle schede con riscontro o aggiunta dai ruoli matricolari;
-  filtro dedicato. Le statistiche restano calcolate sulle 140 schede dell'Album.
-- Ricerca client-side per testo, campagna e tipo di corpo, senza cookie.
+- Tabella completa di **140 combattenti**: nominativo, grado, corpo, campagne,
+  osservazioni, matricola e numero d'album.
+- **Tag** su ogni scheda: *Prima/Seconda/Terza guerra d'indipendenza* (dagli
+  anni di campagna), *Garibaldino* (Corpo dei Volontari Italiani 1866) e
+  *AS Torino* (riscontri con i ruoli matricolari); filtro dedicato.
+- Ricerca client-side per testo, campagna, tag, tipo di corpo e fonte, senza cookie.
 - Statistiche: campagne, corpi, reparti, cognomi; perdite e decorazioni.
 - Rimando a **Pietro Delucca** (Deluca nell'Album, De Luca nell'atto di morte),
   fondatore delle scuole elementari e titolare della piazza principale.
@@ -28,8 +26,7 @@ ne dipende.
 
 | file | ruolo |
 |---|---|
-| `combattenti.tsv` | sorgente: 141 righe (140 Album + 1 AS Torino), colonna `fonte` |
-| `build.py` | legge il TSV, genera `combattenti.json` e `index.html` |
+| `combattenti.tsv` | sorgente: 140 righe del Progetto Torelli, con colonna `fonte` per i riscontri AS Torino || `build.py` | legge il TSV, genera `combattenti.json` e `index.html` |
 | `combattenti.json` | dati strutturati per riuso |
 | `index.html` | pagina generata (non modificare a mano) |
 | `style.css` | stili |

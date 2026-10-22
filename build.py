@@ -4,7 +4,9 @@
 
 Sorgente: combattenti.tsv, trascrizione delle 140 schede del Progetto Torelli
 (Album-Tabella della Torre di San Martino della Battaglia, Libro 2, Provincia
-di Pavia, Comune di Gravellona, pp. 266-273, voci 10453-10592).
+di Pavia, Comune di Gravellona, pp. 266-273, voci 10453-10592), più le schede
+aggiunte dai ruoli matricolari dell'Archivio di Stato di Torino (colonna
+`fonte`), che restano fuori dai conteggi dell'Album.
 
 Uso: python3 build.py
 """
@@ -62,6 +64,11 @@ def categoria(corpo):
     return "Altri corpi"
 
 
+def intero(valore):
+    valore = (valore or "").strip()
+    return int(valore) if valore.isdigit() else 0
+
+
 def carica():
     righe = []
     with TSV.open(encoding="utf-8", newline="") as f:
@@ -69,11 +76,12 @@ def carica():
             nome = r["nome_listing"].strip()
             corpo = r["corpo"].strip()
             campagne = r["campagna"].split()
+            fonte = (r.get("fonte") or "Album-Tabella").strip()
             righe.append(
                 {
-                    "id": int(r["id"]),
-                    "album": int(r["numero"]),
-                    "pagina": int(r["pagina"]),
+                    "id": intero(r["id"]) if r["id"].strip().isdigit() else r["id"].strip(),
+                    "album": intero(r["numero"]),
+                    "pagina": intero(r["pagina"]),
                     "matricola": r["matricola"].strip(),
                     "nome": nome,
                     "cognome": nome.split()[0],
@@ -83,6 +91,9 @@ def carica():
                     "campagne": campagne,
                     "osservazioni": r["oss"].strip(),
                     "note": r["note"].strip(),
+                    "fonte": fonte,
+                    "fonti": [x.strip() for x in fonte.split("·") if x.strip()],
+                    "as_to": "AS Torino" in fonte,
                 }
             )
     righe.sort(key=lambda x: (x["nome"].lower(), x["album"]))
@@ -90,17 +101,22 @@ def carica():
 
 
 ROWS = carica()
-N = len(ROWS)
-CORPI = collections.Counter(r["corpo"] for r in ROWS)
-COGNOMI = collections.Counter(r["cognome"] for r in ROWS)
-CATEGORIE = collections.Counter(r["categoria"] for r in ROWS)
-CAMPAGNE = collections.Counter(c for r in ROWS for c in r["campagne"])
-OSSERVAZIONI = [r for r in ROWS if r["osservazioni"]]
+# Le statistiche raccontano l'Album-Tabella (140 schede); la tabella mostra
+# anche le schede aggiunte da altre fonti, riconoscibili dal tag.
+ALBUM = [r for r in ROWS if "Album-Tabella" in r["fonti"]]
+N = len(ALBUM)
+N_TOT = len(ROWS)
+N_AS_TO = sum(1 for r in ROWS if r["as_to"])
+CORPI = collections.Counter(r["corpo"] for r in ALBUM)
+COGNOMI = collections.Counter(r["cognome"] for r in ALBUM)
+CATEGORIE = collections.Counter(r["categoria"] for r in ALBUM)
+CAMPAGNE = collections.Counter(c for r in ALBUM for c in r["campagne"])
+OSSERVAZIONI = [r for r in ALBUM if r["osservazioni"]]
 CON_OSSERVAZIONE = len(OSSERVAZIONI)
-SENZA_MATRICOLA = sum(1 for r in ROWS if not r["matricola"])
-PLURI_CAMPAGNA = sum(1 for r in ROWS if len(r["campagne"]) >= 4)
-ENTRAMBE_1848_49 = sum(1 for r in ROWS if {"1848", "1849"} <= set(r["campagne"]))
-UOMINI_1848_49 = sum(1 for r in ROWS if set(r["campagne"]) & {"1848", "1849"})
+SENZA_MATRICOLA = sum(1 for r in ALBUM if not r["matricola"])
+PLURI_CAMPAGNA = sum(1 for r in ALBUM if len(r["campagne"]) >= 4)
+ENTRAMBE_1848_49 = sum(1 for r in ALBUM if {"1848", "1849"} <= set(r["campagne"]))
+UOMINI_1848_49 = sum(1 for r in ALBUM if set(r["campagne"]) & {"1848", "1849"})
 
 N_CORPI = len(CORPI)
 N_COGNOMI = len(COGNOMI)
@@ -184,7 +200,7 @@ def riga_tabella(i, r):
     cerca = " ".join(
         [
             str(r["id"]),
-            str(r["album"]),
+            str(r["album"]) if r["album"] else "",
             r["matricola"],
             r["nome"],
             r["grado"],
@@ -192,22 +208,38 @@ def riga_tabella(i, r):
             r["categoria"],
             " ".join(r["campagne"]),
             r["osservazioni"],
+            r["note"],
+            r["fonte"],
         ]
     )
+    if r["album"] == 10514:
+        cerca += " Delucca De Luca"
     matricola = r["matricola"] if r["matricola"] else "—"
-    osservazioni = r["osservazioni"] if r["osservazioni"] else ""
+    osservazioni = esc(r["osservazioni"]) if r["osservazioni"] else ""
+    if r["note"]:
+        osservazioni += f'<span class="nota-fonte">{esc(r["note"])}</span>'
+    album = str(r["album"]) if r["album"] else "—"
+    nome_html = f"<strong>{esc(r['nome'])}</strong>"
+    if r["album"] == 10514:
+        nome_html += ' <span class="rimando">→ <a href="#delucca">Pietro Delucca</a></span>'
+    if r["as_to"]:
+        nome_html += (
+            ' <span class="tag" title="Archivio di Stato di Torino,'
+            ' ruoli matricolari dei corpi volontari">AS Torino</span>'
+        )
     return (
         f"<tr data-campagne=\"{esc_attr(' '.join(r['campagne']))}\" "
         f"data-categoria=\"{esc_attr(r['categoria'])}\" "
+        f"data-fonte=\"{esc_attr(' '.join(r['fonti']))}\" "
         f"data-cerca=\"{esc_attr(cerca)}\">"
         f"<td class=\"n\">{i}</td>"
-        f"<td><strong>{esc(r['nome'])}</strong></td>"
+        f"<td>{nome_html}</td>"
         f"<td>{esc(r['grado'])}</td>"
         f"<td>{esc(r['corpo'])}</td>"
         f"<td class=\"campagne\">{esc(', '.join(r['campagne']))}</td>"
-        f"<td class=\"oss\">{esc(osservazioni)}</td>"
+        f"<td class=\"oss\">{osservazioni}</td>"
         f"<td class=\"n\">{esc(matricola)}</td>"
-        f"<td class=\"n\">{r['album']}</td>"
+        f"<td class=\"n\">{esc(album)}</td>"
         "</tr>"
     )
 
@@ -224,11 +256,11 @@ HTML = f"""<!doctype html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Guerre d'indipendenza — Gravellona Lomellina</title>
-<meta name="description" content="140 combattenti gravellonesi delle guerre d'indipendenza e del Risorgimento, 1848-1870: tabella, dati e ricerca.">
+<meta name="description" content="140 combattenti gravellonesi delle guerre d'indipendenza e del Risorgimento, 1848-1870, più un volontario dai ruoli dell'Archivio di Stato di Torino: tabella, dati e ricerca.">
 <link rel="canonical" href="{SITE_URL}">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Guerre d'indipendenza — Gravellona Lomellina">
-<meta property="og:description" content="140 combattenti gravellonesi del Risorgimento, 1848-1870: tabella, dati e ricerca.">
+<meta property="og:description" content="140 combattenti gravellonesi del Risorgimento, 1848-1870, più un volontario dai ruoli dell'Archivio di Stato di Torino: tabella, dati e ricerca.">
 <meta property="og:url" content="{SITE_URL}">
 <link rel="stylesheet" href="style.css">
 </head>
@@ -238,11 +270,17 @@ HTML = f"""<!doctype html>
     <a class="brand" href="./">Guerre d'indipendenza</a>
     <p class="motto">Gravellona Lomellina · 1848-1870</p>
   </div>
+  <figure class="header-immagine">
+    <img src="header-porta-pia.jpg" alt="Bersaglieri italiani all'assalto presso Porta Pia, dipinto di Michele Cammarano" width="1400" height="867">
+    <figcaption>Michele Cammarano, <em>I bersaglieri alla presa di Porta Pia</em> (1871). Pubblico dominio, <a href="https://commons.wikimedia.org/wiki/File:I_bersaglieri_alla_presa_di_Porta_Pia._Autore_Michelle_Cammarano.jpg">Wikimedia Commons</a>.</figcaption>
+  </figure>
 </header>
 
 <main class="wrap">
   <h1>I gravellonesi delle guerre d'indipendenza</h1>
   <p class="lead">L'Album-Tabella della Torre di San Martino della Battaglia registra <strong>{N} gravellonesi</strong> che presero parte alle campagne militari del Risorgimento, dal 1848 al 1870. Non è un elenco di caduti: è un elenco di combattenti. Le schede dicono grado, corpo e anni di campagna; solo {CON_OSSERVAZIONE} hanno un'osservazione, e solo tre riguardano il sangue: un morto a Custoza, un ferito a Villafranca, un disperso nel 1848.</p>
+
+  <p>Ai {N} dell'Album si aggiunge <strong>Grugnetti Gaudenzio</strong> (1866), che non compare nell'Album ma nei ruoli matricolari dei corpi volontari dell'<strong>Archivio di Stato di Torino</strong>: in tabella porta il tag <span class="tag">AS Torino</span>. I conteggi e le statistiche restano quelli delle {N} schede dell'Album.</p>
 
   <ul class="numeri">
     <li><strong>{N}</strong><span>combattenti</span></li>
@@ -334,6 +372,8 @@ HTML = f"""<!doctype html>
 
   <p class="avvertenza">Anche qui la ripartizione è ricostruita per reparto, non provata scheda per scheda. I sette del <strong>61° Fanteria</strong> sono il secondo gruppo omogeneo del paese dopo l'11°-12° del 1849-1859.</p>
 
+  <p>Un volontario del 1866 non è nell'Album ma nei <strong>ruoli matricolari dell'Archivio di Stato di Torino</strong>: <strong>Grugnetti Gaudenzio</strong> di Carlo, 19 anni, del Corpo dei Volontari Italiani, <strong>prigioniero a Bezzecca il 21 luglio 1866</strong> (mazzo 122). In tabella è segnato con il tag <span class="tag">AS Torino</span>. Dallo stesso fondo viene il riscontro su <strong>Silva Giuseppe</strong> fu Giovanni, caporale del 4° Fanteria Volontari Italiani, 36 anni, madre Rigoni Anna (mazzo 119): è lo stesso uomo dell'Album n. 10587. Resta fuori <strong>Collini Giacomo</strong>, nato a <em>Gravellona Toce</em> (Novara), non a Gravellona Lomellina.</p>
+
   <h2 id="perdite">Perdite e decorazioni</h2>
   <p>Le perdite non hanno una colonna propria: l'Album le annota, quando le annota, nelle <em>Osservazioni</em>. Su {N} schede solo <strong>{CON_OSSERVAZIONE}</strong> hanno un'osservazione; queste sono tutte.</p>
 
@@ -350,12 +390,12 @@ HTML = f"""<!doctype html>
 
   <p><strong>Barbavara di Gravellona cav. Ottavio di Costantino</strong>, luogotenente colonnello del 2° Regg. Bersaglieri, è dato <strong>ferito a Villafranca</strong>, il combattimento del 24 giugno 1866 presso Verona. Lo stesso uomo è decorato di menzione onorevole a Pastrengo, croce di Cavaliere dell'Ordine Militare di Savoia a Castelfidardo e medaglia d'argento al valor militare.</p>
 
-  <p><strong>Deluca Pietro</strong> di Giovanni, sottocaporale dei Bersaglieri, campagna 1848, è dato <strong>disperso</strong>. Negroni (1885) lo dice anche <strong>ferito a Santa Lucia</strong> (6 maggio 1848): «disperso» e «ferito» convivono in due documenti diversi. Nell'Album-Tabella «disperso» vale «uscito dai ruoli, traccia persa», non necessariamente caduto.</p>
+  <p id="delucca"><strong>Deluca Pietro</strong> di Giovanni, sottocaporale dei Bersaglieri, campagna 1848, è dato <strong>disperso</strong>. Negroni (1885) lo dice anche <strong>ferito a Santa Lucia</strong> (6 maggio 1848): «disperso» e «ferito» convivono in due documenti diversi. Nell'Album-Tabella «disperso» vale «uscito dai ruoli, traccia persa», non necessariamente caduto. È lo stesso <strong>Pietro Delucca</strong> (Pietro De Luca) che la memoria locale ricorda come fondatore delle scuole elementari e a cui è intitolata la piazza (Colli 1960, pp. 97-99).</p>
 
   <p>Le decorazioni registrate sono quattro: <strong>Sempio Giuseppe</strong> (Novara Cavalleria, medaglia d'argento a Macerone, 1860), <strong>Curti Carlo Maria</strong> (24° Fanteria, medaglia d'argento), <strong>Barbavara Gravellona cav. Ottavio Costantino Antonio Maria</strong> (49° Fanteria, croce dell'Ordine Militare di Savoia e medaglia d'argento) e il già citato <strong>Barbavara di Gravellona cav. Ottavio di Costantino</strong>.</p>
 
   <h2 id="elenco">L'elenco</h2>
-  <p>Tabella completa dei {N} combattenti, in ordine alfabetico. Cerca per nome, grado, corpo, campagna, matricola o osservazione; filtra per anno e per tipo di corpo.</p>
+  <p>Tabella completa dei {N_TOT} combattenti, in ordine alfabetico. Cerca per nome, grado, corpo, campagna, matricola o osservazione; filtra per anno, tipo di corpo e fonte.</p>
 
   <div class="filtri">
     <div class="filtro">
@@ -376,12 +416,20 @@ HTML = f"""<!doctype html>
         {''.join(f'<option value="{c}">{c}</option>' for c in CATEGORIE_ORDINE if CATEGORIE.get(c))}
       </select>
     </div>
+    <div class="filtro">
+      <label for="fonte">Fonte</label>
+      <select id="fonte">
+        <option value="">tutte</option>
+        <option value="Album-Tabella">Album-Tabella</option>
+        <option value="AS Torino">AS Torino (ruoli matricolari)</option>
+      </select>
+    </div>
     <div class="filtro filtro-azione">
       <button type="button" id="azzera">Azzera</button>
     </div>
   </div>
 
-  <p class="esito" id="esito" role="status" aria-live="polite">{N} combattenti</p>
+  <p class="esito" id="esito" role="status" aria-live="polite">{N_TOT} combattenti</p>
   <p class="scorri">Scorri la tabella per vedere tutte le colonne.</p>
 
   <div class="tabella-scroll">
@@ -405,13 +453,14 @@ HTML = f"""<!doctype html>
   </div>
   <p id="nessun-risultato" hidden>Nessun risultato.</p>
 
-  <p class="legenda"><strong>Campagne</strong>: anni di campagna, non singole battaglie. <strong>Osservazioni</strong>: solo {CON_OSSERVAZIONE} schede su {N}. <strong>Matricola</strong>: manca per {SENZA_MATRICOLA} ufficiali. <strong>Album</strong>: numero di voce nell'Album-Tabella (10453-10592). L'elenco è in ordine alfabetico.</p>
+  <p class="legenda"><strong>Campagne</strong>: anni di campagna, non singole battaglie. <strong>Osservazioni</strong>: solo {CON_OSSERVAZIONE} schede su {N}. <strong>Matricola</strong>: manca per {SENZA_MATRICOLA} ufficiali. <strong>Album</strong>: numero di voce nell'Album-Tabella (10453-10592); il trattino indica una scheda che dall'Album non viene. <strong>AS Torino</strong>: riscontro o aggiunta dai ruoli matricolari dei corpi volontari (Archivio di Stato di Torino), fuori dai conteggi dell'Album. L'elenco è in ordine alfabetico.</p>
 
   <h2 id="fonti">Fonti e metodo</h2>
   <ul class="fonti">
     <li>Progetto Torelli (Società Solferino e San Martino), trascrizione degli <em>Album-Tabella della Torre Storica di San Martino della Battaglia</em>, Libro 2, Provincia di Pavia, Comune di Gravellona, pp. 266-273, voci n. 10453-10592, trascrizione di Niccolò Federici (2018/2019), consultato il 18 ottobre 2026. Portale: <a href="https://www.solferinoesanmartino.it/progetto-torelli/ricerca/">solferinoesanmartino.it/progetto-torelli</a>.</li>
     <li>La banca dati Torelli è una <strong>trascrizione</strong>: la fonte primaria è l'Album-Tabella cartaceo. I campi non ricavabili dalla banca dati — data e luogo di nascita, paternità estesa, note di corpo — richiedono l'originale.</li>
-    <li>Ernesto Colli, <em>Gravellona Lomellina nella sua storia</em>, Novara 1960, cap. «I Caduti per la Patria», pp. 101-105, per il contesto locale del 1849 e del 1859 (occupazione, inondazione, requisizioni).</li>
+    <li>Archivio di Stato di Torino, <em>Alla ricerca dei garibaldini scomparsi</em>: ruoli matricolari dei corpi volontari (Spedizione dei Mille 1860; Corpo dei Volontari Italiani 1866), schede n. 62280 (Grugnetti Gaudenzio, mazzo 122) e n. 83175 (Silva Giuseppe, mazzo 119), consultate il 22 ottobre 2026. Portale: <a href="https://archiviodistatotorino.cultura.gov.it/garb_src/">archiviodistatotorino.cultura.gov.it/garb_src</a>.</li>
+    <li>Ernesto Colli, <em>Gravellona Lomellina nella sua storia</em>, Novara 1960, pp. 97-99 (Pietro Delucca, scuole e piazza) e pp. 101-105 (contesto locale del 1849 e del 1859: occupazione, inondazione, requisizioni).</li>
     <li>Carlo Negroni, <em>Memorie storiche di Gravellona Lomellina</em>, 1885, per Pietro Deluca ferito a Santa Lucia.</li>
     <li>Ordinamenti e ricostruzioni: voci Wikipedia <em>Battaglia di Mortara</em>, <em>Battaglia della Sforzesca</em>, <em>Ordine di battaglia della battaglia di Solferino e San Martino</em>, <em>Ordine di battaglia della battaglia di Custoza (1866)</em>; storiologia.it per la composizione dell'esercito italiano del 1866.</li>
   </ul>
@@ -423,7 +472,7 @@ HTML = f"""<!doctype html>
 
 <footer class="site-footer">
   <div class="wrap">
-    <p>Dati: Progetto Torelli, Album-Tabella di San Martino; Colli 1960 per il contesto. Testi originali <a href="https://creativecommons.org/licenses/by/4.0/deed.it">CC BY 4.0</a>, salvo diversa indicazione.</p>
+    <p>Dati: Progetto Torelli, Album-Tabella di San Martino; Archivio di Stato di Torino, ruoli dei corpi volontari; Colli 1960 per il contesto. Testi originali <a href="https://creativecommons.org/licenses/by/4.0/deed.it">CC BY 4.0</a>, salvo diversa indicazione.</p>
     <p>Nessun cookie, nessun tracking. <a href="privacy.html">Privacy e correzioni</a>.</p>
   </div>
 </footer>
@@ -435,7 +484,7 @@ HTML = f"""<!doctype html>
 
 (ROOT / "index.html").write_text(HTML, encoding="utf-8")
 
-print(f"index.html: {N} record, {len(HTML)} byte")
+print(f"index.html: {N_TOT} record ({N} Album + {N_TOT - N} aggiunta AS Torino), {len(HTML)} byte")
 print(f"corpi distinti: {N_CORPI}; cognomi: {N_COGNOMI}; osservazioni: {CON_OSSERVAZIONE}")
 print("campagne:", dict(sorted(CAMPAGNE.items())))
 print("categorie:", dict(CATEGORIE))

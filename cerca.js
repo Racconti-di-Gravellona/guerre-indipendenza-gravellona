@@ -1,9 +1,10 @@
 // Ricerca locale nella tabella dei combattenti: nessun server, nessun cookie,
-// nessun tracking. Filtra le righe per testo, campagna e tipo di corpo.
+// nessun tracking. Filtra le righe per testo, campagna, tipo di corpo e fonte.
 (() => {
   const input = document.querySelector("#cerca");
   const campagna = document.querySelector("#campagna");
   const categoria = document.querySelector("#categoria");
+  const fonte = document.querySelector("#fonte");
   const azzera = document.querySelector("#azzera");
   const tabella = document.querySelector("#tabella-combattenti");
   if (!input || !tabella) return;
@@ -20,6 +21,7 @@
     const q = norm(input.value.trim());
     const anno = campagna ? campagna.value : "";
     const tipo = categoria ? categoria.value : "";
+    const sorgente = fonte ? fonte.value : "";
     let visibili = 0;
 
     for (const tr of righe) {
@@ -28,14 +30,15 @@
       const ok =
         (!q || testo.includes(q)) &&
         (!anno || anni.includes(anno)) &&
-        (!tipo || tr.dataset.categoria === tipo);
+        (!tipo || tr.dataset.categoria === tipo) &&
+        (!sorgente || (tr.dataset.fonte || "").includes(sorgente));
       tr.hidden = !ok;
       if (ok) visibili += 1;
     }
 
     if (esito) {
       esito.textContent =
-        q || anno || tipo
+        q || anno || tipo || sorgente
           ? `${visibili} di ${totale} combattenti`
           : `${totale} combattenti`;
     }
@@ -47,6 +50,7 @@
         if (q) parti.push(`«${input.value.trim()}»`);
         if (anno) parti.push(`campagna ${anno}`);
         if (tipo) parti.push(`corpo «${tipo}»`);
+        if (sorgente) parti.push(`fonte «${sorgente}»`);
         vuoto.textContent = `Nessun risultato per ${parti.join(" e ")}.`;
       }
     }
@@ -55,11 +59,13 @@
   input.addEventListener("input", aggiorna);
   if (campagna) campagna.addEventListener("change", aggiorna);
   if (categoria) categoria.addEventListener("change", aggiorna);
+  if (fonte) fonte.addEventListener("change", aggiorna);
   if (azzera) {
     azzera.addEventListener("click", () => {
       input.value = "";
       if (campagna) campagna.value = "";
       if (categoria) categoria.value = "";
+      if (fonte) fonte.value = "";
       aggiorna();
       input.focus();
     });

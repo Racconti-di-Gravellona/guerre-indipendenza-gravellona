@@ -58,6 +58,39 @@ td.n,th.n{text-align:right;white-space:nowrap}
   font-size:.9em;color:var(--grigio);background:#f8f4e8;
   border-left:3px solid var(--ocra);padding:.6em .8em;margin:1.2em 0;
 }
+.header-immagine{
+  position:relative;margin:1em 0 0;
+  height:clamp(10em, 26vw, 20em);overflow:hidden;
+}
+#delucca{scroll-margin-top:1em}
+.header-immagine img{
+  display:block;width:100%;height:100%;
+  object-fit:cover;object-position:center 42%;
+}
+.header-immagine figcaption{
+  position:absolute;right:0;bottom:0;left:0;
+  padding:1.2em 1em .45em;
+  background:linear-gradient(to top, rgba(0,0,0,.82), rgba(0,0,0,0));
+  color:#fff;text-align:right;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+  font-size:.68em;line-height:1.3;
+  text-shadow:0 1px 2px rgba(0,0,0,.5);
+}
+.header-immagine figcaption a{color:#fff;text-decoration:underline;text-underline-offset:2px}
+.rimando{
+  display:block;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+  font-size:.8em;line-height:1.3;margin-top:.15em;
+}
+.tag{
+  display:inline-block;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+  font-size:.62em;font-weight:600;letter-spacing:.02em;
+  text-transform:uppercase;line-height:1.4;
+  padding:.05em .4em;margin-left:.15em;
+  border:1px solid var(--mattone);border-radius:3px;
+  color:var(--mattone);background:#fdf7f2;
+  vertical-align:.12em;white-space:nowrap;
+}
 .tabella-scroll{
   overflow-x:auto;-webkit-overflow-scrolling:touch;
   border:1px solid #e5dcc8;border-radius:6px;margin:.8em 0 1em;
@@ -69,6 +102,11 @@ td.n,th.n{text-align:right;white-space:nowrap}
 .tabella-combattenti tbody tr:nth-child(even){background:#fbf7ed}
 .tabella-combattenti tbody tr:hover{background:#f4ecd8}
 .tabella-combattenti td.oss{max-width:19em;color:#4d463a}
+.nota-fonte{
+  display:block;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+  font-size:.85em;color:var(--grigio);margin-top:.15em;
+}
 .tabella-combattenti td.campagne{white-space:nowrap}
 .tabella-osservazioni{min-width:780px;font-size:.8em}
 .tabella-osservazioni td:last-child{max-width:28em}
@@ -126,6 +164,8 @@ button:hover{background:#efe5ce}
 @media(max-width:560px){
   .brand{font-size:1.45em}
   h1{font-size:1.45em}
+  .header-immagine{height:11em}
+  .header-immagine figcaption{font-size:.6em;padding:.8em .7em .35em}
   .numeri{grid-template-columns:1fr 1fr}
   .filtro input[type="search"]{min-width:0;width:100%}
   .filtro{flex:1 1 100%}
